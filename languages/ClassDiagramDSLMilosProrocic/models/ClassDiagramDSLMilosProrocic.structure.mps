@@ -21,6 +21,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -65,17 +66,15 @@
     <node concept="PrWs8" id="TgpFD_pvvi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="51uBUXkynyx" role="1TKVEi">
-      <property role="IQ2ns" value="5791241746231425185" />
-      <property role="20kJfa" value="tipAtributaRef" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="51uBUXkynyv" resolve="TipAtributa" />
+    <node concept="1TJgyi" id="51uBUXkzFhy" role="1TKVEl">
+      <property role="IQ2nx" value="5791241746231768162" />
+      <property role="TrG5h" value="tipAtributa" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="TgpFD_pvMq">
     <property role="EcuMT" value="1031437265418976410" />
     <property role="TrG5h" value="Enumeracija" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="TgpFD_pvMr" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -91,6 +90,8 @@
   <node concept="1TIwiD" id="TgpFD_pybX">
     <property role="EcuMT" value="1031437265418986237" />
     <property role="TrG5h" value="Klasa" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="&quot;Klasa&quot;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="TgpFD_pybY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -186,6 +187,13 @@
       <property role="20kJfa" value="veze" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TgpFD_pybZ" resolve="Veza" />
+    </node>
+    <node concept="1TJgyj" id="51uBUXk$aHi" role="1TKVEi">
+      <property role="IQ2ns" value="5791241746231896914" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="enumeracije" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="TgpFD_pvMq" resolve="Enumeracija" />
     </node>
   </node>
   <node concept="1TIwiD" id="51uBUXkxYYe">

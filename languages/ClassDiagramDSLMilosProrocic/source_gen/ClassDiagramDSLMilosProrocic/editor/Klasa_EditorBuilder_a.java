@@ -14,6 +14,7 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
@@ -96,7 +97,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return SLinkOperations.getTarget(myNode, LINKS.extendsClass$DLcM) != null;
   }
   private boolean nodeCondition_p5gde7_a3a0() {
-    return SLinkOperations.getChildren(myNode, LINKS.implementsInterface$DLTP) != null;
+    return !(ListSequence.fromList(SLinkOperations.getChildren(myNode, LINKS.implementsInterface$DLTP)).isEmpty());
   }
   private EditorCell createConstant_0() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Klasa");

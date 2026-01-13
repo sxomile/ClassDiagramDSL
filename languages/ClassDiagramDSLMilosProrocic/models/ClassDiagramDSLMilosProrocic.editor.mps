@@ -69,6 +69,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -82,6 +85,9 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
     </language>
   </registry>
   <node concept="24kQdi" id="51uBUXkxZo0">
@@ -164,17 +170,11 @@
       <node concept="3F0A7n" id="51uBUXkynyk" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="51uBUXkynyn" role="3EZMnx">
+      <node concept="3F0ifn" id="51uBUXkzFhz" role="3EZMnx">
         <property role="3F0ifm" value=":" />
       </node>
-      <node concept="1iCGBv" id="51uBUXkyny_" role="3EZMnx">
-        <ref role="1NtTu8" to="ldom:51uBUXkynyx" resolve="tipAtributaRef" />
-        <node concept="1sVBvm" id="51uBUXkynyB" role="1sWHZn">
-          <node concept="3F0A7n" id="51uBUXkynyF" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
+      <node concept="3F0A7n" id="51uBUXkzFhC" role="3EZMnx">
+        <ref role="1NtTu8" to="ldom:51uBUXkzFhy" resolve="tipAtributa" />
       </node>
       <node concept="2iRfu4" id="51uBUXkynyj" role="2iSdaV" />
     </node>
@@ -242,13 +242,15 @@
           <node concept="pkWqt" id="51uBUXkz0pE" role="pqm2j">
             <node concept="3clFbS" id="51uBUXkz0pF" role="2VODD2">
               <node concept="3clFbF" id="51uBUXkz0ux" role="3cqZAp">
-                <node concept="3y3z36" id="51uBUXkz6k0" role="3clFbG">
-                  <node concept="10Nm6u" id="51uBUXkz83J" role="3uHU7w" />
-                  <node concept="2OqwBi" id="51uBUXkz0Jd" role="3uHU7B">
-                    <node concept="pncrf" id="51uBUXkz0uw" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="51uBUXkz1d7" role="2OqNvi">
-                      <ref role="3TtcxE" to="ldom:51uBUXkyWyC" resolve="implementsInterface" />
+                <node concept="3fqX7Q" id="51uBUXkzQjl" role="3clFbG">
+                  <node concept="2OqwBi" id="51uBUXkzTSu" role="3fr31v">
+                    <node concept="2OqwBi" id="51uBUXkzQFK" role="2Oq$k0">
+                      <node concept="pncrf" id="51uBUXkzQou" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="51uBUXkzR5w" role="2OqNvi">
+                        <ref role="3TtcxE" to="ldom:51uBUXkyWyC" resolve="implementsInterface" />
+                      </node>
                     </node>
+                    <node concept="1v1jN8" id="51uBUXkzYTz" role="2OqNvi" />
                   </node>
                 </node>
               </node>
@@ -267,6 +269,12 @@
         <property role="3F0ifm" value="}" />
       </node>
       <node concept="2iRkQZ" id="51uBUXkyWyK" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="51uBUXk$aHg">
+    <ref role="1XX52x" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+    <node concept="3F0ifn" id="51uBUXk$aVF" role="2wV5jI">
+      <property role="3F0ifm" value="Dijagram" />
     </node>
   </node>
 </model>

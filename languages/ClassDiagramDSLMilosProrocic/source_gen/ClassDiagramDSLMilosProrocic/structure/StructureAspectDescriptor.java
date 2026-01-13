@@ -85,7 +85,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418975185");
     b.version(3);
-    b.associate("tipAtributaRef", 0x505e9faf548978a1L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5489789fL).optional(false).origin("5791241746231425185").done();
+    b.property("tipAtributa", 0x505e9faf548eb462L).type(PrimitiveTypeId.STRING).origin("5791241746231768162").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDijagram() {
@@ -97,11 +97,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("klase", 0x505e9faf5487e998L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL).optional(true).ordered(true).multiple(true).origin("5791241746231323032").done();
     b.aggregate("intefejsi", 0x505e9faf5487e999L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231323033").done();
     b.aggregate("veze", 0x505e9faf5487e99aL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL).optional(true).ordered(true).multiple(true).origin("5791241746231323034").done();
+    b.aggregate("enumeracije", 0x505e9faf5490ab52L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565fc9aL).optional(true).ordered(true).multiple(true).origin("5791241746231896914").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForEnumeracija() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "Enumeracija", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565fc9aL);
-    b.class_(false, false, true);
+    b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418976410");
     b.version(3);
@@ -135,13 +136,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForKlasa() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "Klasa", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418986237");
     b.version(3);
     b.associate("extendsClass", 0x505e9faf548bc8a5L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL).optional(true).origin("5791241746231576741").done();
     b.aggregate("atributi", 0x505e9faf5487e43bL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L).optional(true).ordered(true).multiple(true).origin("5791241746231321659").done();
     b.aggregate("implementsInterface", 0x505e9faf548bc8a8L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231576744").done();
+    b.alias("\"Klasa\"");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForTipAtributa() {
