@@ -117,7 +117,7 @@
         <ref role="1NtTu8" to="ldom:51uBUXkycqc" resolve="kardinalnostLevo" />
       </node>
       <node concept="3F0A7n" id="51uBUXkycqk" role="3EZMnx">
-        <ref role="1NtTu8" to="ldom:51uBUXkxYYj" resolve="tipVeze" />
+        <ref role="1NtTu8" to="ldom:51uBUXkxYYj" resolve="TipVeze" />
       </node>
       <node concept="3F1sOY" id="51uBUXkycqp" role="3EZMnx">
         <ref role="1NtTu8" to="ldom:51uBUXkycqd" resolve="kardinalnostDesno" />

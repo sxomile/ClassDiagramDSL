@@ -920,7 +920,7 @@
     </node>
   </node>
   <node concept="312cEu" id="4q">
-    <property role="TrG5h" value="EnumerationDescriptor_tipVezeEnum" />
+    <property role="TrG5h" value="EnumerationDescriptor_TipVezeEnum" />
     <uo k="s:originTrace" v="n:5791241746231321662" />
     <node concept="2tJIrI" id="4r" role="jymVt">
       <uo k="s:originTrace" v="n:5791241746231321662" />
@@ -951,7 +951,7 @@
             <uo k="s:originTrace" v="n:5791241746231321662" />
           </node>
           <node concept="Xl_RD" id="4P" role="37wK5m">
-            <property role="Xl_RC" value="tipVezeEnum" />
+            <property role="Xl_RC" value="TipVezeEnum" />
             <uo k="s:originTrace" v="n:5791241746231321662" />
           </node>
           <node concept="Xl_RD" id="4Q" role="37wK5m">
@@ -1452,15 +1452,15 @@
     <node concept="39e2AJ" id="6H" role="39e2AI">
       <property role="39e3Y2" value="EnumerationDescriptorCons" />
       <node concept="39e2AG" id="6L" role="39e3Y0">
-        <ref role="39e2AK" to="ldom:51uBUXkxYgY" resolve="tipVezeEnum" />
+        <ref role="39e2AK" to="ldom:51uBUXkxYgY" resolve="TipVezeEnum" />
         <node concept="385nmt" id="6M" role="385vvn">
-          <property role="385vuF" value="tipVezeEnum" />
+          <property role="385vuF" value="TipVezeEnum" />
           <node concept="3u3nmq" id="6O" role="385v07">
             <property role="3u3nmv" value="5791241746231321662" />
           </node>
         </node>
         <node concept="39e2AT" id="6N" role="39e2AY">
-          <ref role="39e2AS" node="4s" resolve="EnumerationDescriptor_tipVezeEnum" />
+          <ref role="39e2AS" node="4s" resolve="EnumerationDescriptor_TipVezeEnum" />
         </node>
       </node>
     </node>
@@ -1991,13 +1991,13 @@
       <property role="eg7rD" value="false" />
       <property role="34CwA1" value="false" />
       <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="myEnumerationtipVezeEnum" />
+      <property role="TrG5h" value="myEnumerationTipVezeEnum" />
       <node concept="3uibUv" id="a4" role="1tU5fm">
         <ref role="3uigEE" to="ze1i:~EnumerationDescriptor" resolve="EnumerationDescriptor" />
       </node>
       <node concept="2ShNRf" id="a5" role="33vP2m">
         <node concept="1pGfFk" id="a6" role="2ShVmc">
-          <ref role="37wK5l" node="4s" resolve="EnumerationDescriptor_tipVezeEnum" />
+          <ref role="37wK5l" node="4s" resolve="EnumerationDescriptor_TipVezeEnum" />
         </node>
       </node>
     </node>
@@ -2293,7 +2293,7 @@
             <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...)" resolve="asList" />
             <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
             <node concept="37vLTw" id="bL" role="37wK5m">
-              <ref role="3cqZAo" node="9o" resolve="myEnumerationtipVezeEnum" />
+              <ref role="3cqZAo" node="9o" resolve="myEnumerationTipVezeEnum" />
             </node>
           </node>
         </node>
@@ -3907,7 +3907,7 @@
                   <node concept="liA8E" id="lp" role="2OqNvi">
                     <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.property(java.lang.String,long)" resolve="property" />
                     <node concept="Xl_RD" id="lq" role="37wK5m">
-                      <property role="Xl_RC" value="tipVeze" />
+                      <property role="Xl_RC" value="TipVeze" />
                     </node>
                     <node concept="11gdke" id="lr" role="37wK5m">
                       <property role="11gdj1" value="505e9faf5487ef93L" />

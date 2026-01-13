@@ -25,7 +25,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptKlasa = createDescriptorForKlasa();
   /*package*/ final ConceptDescriptor myConceptTipAtributa = createDescriptorForTipAtributa();
   /*package*/ final ConceptDescriptor myConceptVeza = createDescriptorForVeza();
-  /*package*/ final EnumerationDescriptor myEnumerationtipVezeEnum = new EnumerationDescriptor_tipVezeEnum();
+  /*package*/ final EnumerationDescriptor myEnumerationTipVezeEnum = new EnumerationDescriptor_TipVezeEnum();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -72,7 +72,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
-    return Arrays.asList(myEnumerationtipVezeEnum);
+    return Arrays.asList(myEnumerationTipVezeEnum);
   }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
@@ -159,7 +159,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418986239");
     b.version(3);
-    b.property("tipVeze", 0x505e9faf5487ef93L).type(MetaIdFactory.dataTypeId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e43eL)).origin("5791241746231324563").done();
+    b.property("TipVeze", 0x505e9faf5487ef93L).type(MetaIdFactory.dataTypeId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e43eL)).origin("5791241746231324563").done();
     b.property("nazivKlaseLevo", 0x505e9faf549581ecL).type(PrimitiveTypeId.STRING).origin("5791241746232213996").done();
     b.property("nazivKlaseDesno", 0x505e9faf549581edL).type(PrimitiveTypeId.STRING).origin("5791241746232213997").done();
     b.aggregate("kardinalnostLevo", 0x505e9faf5488c68cL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL).optional(false).ordered(true).multiple(false).origin("5791241746231379596").done();

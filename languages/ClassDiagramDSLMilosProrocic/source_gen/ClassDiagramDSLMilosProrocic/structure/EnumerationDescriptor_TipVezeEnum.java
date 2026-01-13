@@ -9,10 +9,10 @@ import java.util.List;
 import org.jetbrains.annotations.Nullable;
 import org.jetbrains.annotations.NotNull;
 
-public class EnumerationDescriptor_tipVezeEnum extends EnumerationDescriptorBase {
+public class EnumerationDescriptor_TipVezeEnum extends EnumerationDescriptorBase {
 
-  public EnumerationDescriptor_tipVezeEnum() {
-    super(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e43eL, "tipVezeEnum", "r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231321662");
+  public EnumerationDescriptor_TipVezeEnum() {
+    super(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e43eL, "TipVezeEnum", "r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231321662");
   }
 
   private final EnumerationDescriptor.MemberDescriptor myMember_agregacija_0 = new EnumerationDescriptor.MemberDescriptor("agregacija", "<>---", 0x505e9faf5487e43fL, "r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231321663");

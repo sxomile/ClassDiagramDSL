@@ -121,8 +121,8 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="51uBUXkxYYj" role="1TKVEl">
       <property role="IQ2nx" value="5791241746231324563" />
-      <property role="TrG5h" value="tipVeze" />
-      <ref role="AX2Wp" node="51uBUXkxYgY" resolve="tipVezeEnum" />
+      <property role="TrG5h" value="TipVeze" />
+      <ref role="AX2Wp" node="51uBUXkxYgY" resolve="TipVezeEnum" />
     </node>
     <node concept="1TJgyi" id="51uBUXk_o7G" role="1TKVEl">
       <property role="IQ2nx" value="5791241746232213996" />
@@ -151,7 +151,7 @@
   </node>
   <node concept="25R3W" id="51uBUXkxYgY">
     <property role="3F6X1D" value="5791241746231321662" />
-    <property role="TrG5h" value="tipVezeEnum" />
+    <property role="TrG5h" value="TipVezeEnum" />
     <node concept="25R33" id="51uBUXkxYgZ" role="25R1y">
       <property role="3tVfz5" value="5791241746231321663" />
       <property role="TrG5h" value="agregacija" />

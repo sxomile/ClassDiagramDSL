@@ -244,7 +244,7 @@
       <node id="5791241746232268084" at="233,12,234,24" concept="6" />
       <node id="5791241746232268084" at="235,15,236,40" concept="1" />
       <node id="5791241746231369928" at="241,0,242,0" concept="8" trace="nazivKlaseLevo$SDoj" />
-      <node id="5791241746231369928" at="242,0,243,0" concept="8" trace="tipVeze$Sa5H" />
+      <node id="5791241746231369928" at="242,0,243,0" concept="8" trace="TipVeze$Sa5H" />
       <node id="5791241746231369928" at="243,0,244,0" concept="8" trace="nazivKlaseDesno$SDBk" />
       <node id="5791241746231369928" at="247,0,248,0" concept="8" trace="PropertyAttribute$Gb" />
       <node id="5791241746231369928" at="251,0,252,0" concept="8" trace="kardinalnostLevo$UmOH" />

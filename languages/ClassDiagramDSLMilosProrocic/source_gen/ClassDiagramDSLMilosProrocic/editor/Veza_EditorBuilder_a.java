@@ -142,11 +142,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.tipVeze$Sa5H;
+      final SProperty property = PROPS.TipVeze$Sa5H;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no tipVeze>");
-      editorCell.setCellId("property_tipVeze");
+      editorCell.setDefaultText("<no TipVeze>");
+      editorCell.setCellId("property_TipVeze");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
       Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
@@ -239,7 +239,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class PROPS {
     /*package*/ static final SProperty nazivKlaseLevo$SDoj = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf549581ecL, "nazivKlaseLevo");
-    /*package*/ static final SProperty tipVeze$Sa5H = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5487ef93L, "tipVeze");
+    /*package*/ static final SProperty TipVeze$Sa5H = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5487ef93L, "TipVeze");
     /*package*/ static final SProperty nazivKlaseDesno$SDBk = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf549581edL, "nazivKlaseDesno");
   }
 
