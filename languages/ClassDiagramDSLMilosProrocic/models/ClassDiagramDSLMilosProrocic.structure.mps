@@ -90,7 +90,6 @@
   <node concept="1TIwiD" id="TgpFD_pybX">
     <property role="EcuMT" value="1031437265418986237" />
     <property role="TrG5h" value="Klasa" />
-    <property role="19KtqR" value="true" />
     <property role="34LRSv" value="&quot;Klasa&quot;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="TgpFD_pybY" role="PzmwI">
@@ -124,6 +123,16 @@
       <property role="IQ2nx" value="5791241746231324563" />
       <property role="TrG5h" value="tipVeze" />
       <ref role="AX2Wp" node="51uBUXkxYgY" resolve="tipVezeEnum" />
+    </node>
+    <node concept="1TJgyi" id="51uBUXk_o7G" role="1TKVEl">
+      <property role="IQ2nx" value="5791241746232213996" />
+      <property role="TrG5h" value="nazivKlaseLevo" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="51uBUXk_o7H" role="1TKVEl">
+      <property role="IQ2nx" value="5791241746232213997" />
+      <property role="TrG5h" value="nazivKlaseDesno" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="51uBUXkycqc" role="1TKVEi">
       <property role="IQ2ns" value="5791241746231379596" />

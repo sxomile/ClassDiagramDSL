@@ -9,14 +9,6 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
-import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
-import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
-import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
-import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
-import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -29,6 +21,14 @@ import java.util.Objects;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
+import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
+import jetbrains.mps.openapi.editor.cells.CellActionType;
+import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
+import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
@@ -56,20 +56,43 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setCellId("Collection_itbaor_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
-    editorCell.addEditorCell(createRefNode_0());
     editorCell.addEditorCell(createProperty_0());
+    editorCell.addEditorCell(createRefNode_0());
+    editorCell.addEditorCell(createProperty_1());
     editorCell.addEditorCell(createRefNode_1());
+    editorCell.addEditorCell(createProperty_2());
     return editorCell;
   }
+  private EditorCell createProperty_0() {
+    getCellFactory().pushCellContext();
+    try {
+      final SProperty property = PROPS.nazivKlaseLevo$SDoj;
+      getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
+      EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
+      editorCell.setDefaultText("<no nazivKlaseLevo>");
+      editorCell.setCellId("property_nazivKlaseLevo");
+      editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
+      setCellContext(editorCell);
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
+      Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where((it) -> Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property));
+      if (Sequence.fromIterable(currentPropertyAttributes).isNotEmpty()) {
+        EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
+        return manager.createNodeRoleAttributeCell(Sequence.fromIterable(currentPropertyAttributes).first(), AttributeKind.PROPERTY, editorCell);
+      } else
+      return editorCell;
+    } finally {
+      getCellFactory().popCellContext();
+    }
+  }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new kardinalnostLevoSingleRoleHandler_itbaor_a0(myNode, LINKS.kardinalnostLevo$UmOH, getEditorContext());
+    SingleRoleCellProvider provider = new kardinalnostLevoSingleRoleHandler_itbaor_b0(myNode, LINKS.kardinalnostLevo$UmOH, getEditorContext());
     return provider.createCell();
   }
-  private static class kardinalnostLevoSingleRoleHandler_itbaor_a0 extends SingleRoleCellProvider {
+  private static class kardinalnostLevoSingleRoleHandler_itbaor_b0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public kardinalnostLevoSingleRoleHandler_itbaor_a0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public kardinalnostLevoSingleRoleHandler_itbaor_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -116,7 +139,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return "<no kardinalnostLevo>";
     }
   }
-  private EditorCell createProperty_0() {
+  private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = PROPS.tipVeze$Sa5H;
@@ -138,14 +161,14 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new kardinalnostDesnoSingleRoleHandler_itbaor_c0(myNode, LINKS.kardinalnostDesno$Un3I, getEditorContext());
+    SingleRoleCellProvider provider = new kardinalnostDesnoSingleRoleHandler_itbaor_d0(myNode, LINKS.kardinalnostDesno$Un3I, getEditorContext());
     return provider.createCell();
   }
-  private static class kardinalnostDesnoSingleRoleHandler_itbaor_c0 extends SingleRoleCellProvider {
+  private static class kardinalnostDesnoSingleRoleHandler_itbaor_d0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public kardinalnostDesnoSingleRoleHandler_itbaor_c0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public kardinalnostDesnoSingleRoleHandler_itbaor_d0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -192,17 +215,40 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return "<no kardinalnostDesno>";
     }
   }
-
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink kardinalnostLevo$UmOH = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5488c68cL, "kardinalnostLevo");
-    /*package*/ static final SContainmentLink kardinalnostDesno$Un3I = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5488c68dL, "kardinalnostDesno");
+  private EditorCell createProperty_2() {
+    getCellFactory().pushCellContext();
+    try {
+      final SProperty property = PROPS.nazivKlaseDesno$SDBk;
+      getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
+      EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
+      editorCell.setDefaultText("<no nazivKlaseDesno>");
+      editorCell.setCellId("property_nazivKlaseDesno");
+      editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
+      setCellContext(editorCell);
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
+      Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where((it) -> Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property));
+      if (Sequence.fromIterable(currentPropertyAttributes).isNotEmpty()) {
+        EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
+        return manager.createNodeRoleAttributeCell(Sequence.fromIterable(currentPropertyAttributes).first(), AttributeKind.PROPERTY, editorCell);
+      } else
+      return editorCell;
+    } finally {
+      getCellFactory().popCellContext();
+    }
   }
 
   private static final class PROPS {
+    /*package*/ static final SProperty nazivKlaseLevo$SDoj = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf549581ecL, "nazivKlaseLevo");
     /*package*/ static final SProperty tipVeze$Sa5H = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5487ef93L, "tipVeze");
+    /*package*/ static final SProperty nazivKlaseDesno$SDBk = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf549581edL, "nazivKlaseDesno");
   }
 
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink kardinalnostLevo$UmOH = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5488c68cL, "kardinalnostLevo");
+    /*package*/ static final SContainmentLink kardinalnostDesno$Un3I = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL, 0x505e9faf5488c68dL, "kardinalnostDesno");
   }
 }

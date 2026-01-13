@@ -19,7 +19,7 @@
       <unit at="10,0,44,0" name="ClassDiagramDSLMilosProrocic.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="18,0,168,0" name="ClassDiagramDSLMilosProrocic.structure.StructureAspectDescriptor" />
+      <unit at="18,0,170,0" name="ClassDiagramDSLMilosProrocic.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418936156">
@@ -147,8 +147,8 @@
       <node id="1031437265418986237" at="25,0,26,0" concept="2" trace="myConceptKlasa" />
       <node id="1031437265418986237" at="62,39,63,30" concept="6" />
       <node id="1031437265418986237" at="137,63,138,167" concept="5" />
-      <node id="1031437265418986237" at="138,167,139,33" concept="1" />
-      <node id="1031437265418986237" at="139,33,140,71" concept="1" />
+      <node id="1031437265418986237" at="138,167,139,34" concept="1" />
+      <node id="1031437265418986237" at="139,34,140,71" concept="1" />
       <node id="1031437265418986237" at="140,71,141,115" concept="1" />
       <node id="1031437265418986237" at="141,115,142,17" concept="1" />
       <node id="5791241746231576741" at="142,17,143,174" concept="1" />
@@ -189,15 +189,17 @@
       <node id="1031437265418986239" at="159,34,160,115" concept="1" />
       <node id="1031437265418986239" at="160,115,161,17" concept="1" />
       <node id="5791241746231324563" at="161,17,162,178" concept="1" />
-      <node id="5791241746231379596" at="162,178,163,210" concept="1" />
-      <node id="5791241746231379597" at="163,210,164,211" concept="1" />
-      <node id="1031437265418986239" at="164,211,165,22" concept="6" />
-      <node id="1031437265418986239" at="157,0,167,0" concept="8" trace="createDescriptorForVeza#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="5791241746232213996" at="162,178,163,120" concept="1" />
+      <node id="5791241746232213997" at="163,120,164,121" concept="1" />
+      <node id="5791241746231379596" at="164,121,165,210" concept="1" />
+      <node id="5791241746231379597" at="165,210,166,211" concept="1" />
+      <node id="1031437265418986239" at="166,211,167,22" concept="6" />
+      <node id="1031437265418986239" at="157,0,169,0" concept="8" trace="createDescriptorForVeza#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="1031437265418986239" at="66,38,67,29" />
-      <scope id="1031437265418986239" at="157,62,165,22">
+      <scope id="1031437265418986239" at="157,62,167,22">
         <var name="b" id="1031437265418986239" />
       </scope>
-      <scope id="1031437265418986239" at="157,0,167,0" />
+      <scope id="1031437265418986239" at="157,0,169,0" />
     </file>
   </root>
   <root nodeRef="r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231321662">

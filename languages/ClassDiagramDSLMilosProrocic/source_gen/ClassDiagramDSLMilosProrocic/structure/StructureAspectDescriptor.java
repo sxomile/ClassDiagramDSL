@@ -136,7 +136,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForKlasa() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "Klasa", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL);
-    b.class_(false, false, true);
+    b.class_(false, false, false);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418986237");
     b.version(3);
@@ -160,6 +160,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418986239");
     b.version(3);
     b.property("tipVeze", 0x505e9faf5487ef93L).type(MetaIdFactory.dataTypeId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e43eL)).origin("5791241746231324563").done();
+    b.property("nazivKlaseLevo", 0x505e9faf549581ecL).type(PrimitiveTypeId.STRING).origin("5791241746232213996").done();
+    b.property("nazivKlaseDesno", 0x505e9faf549581edL).type(PrimitiveTypeId.STRING).origin("5791241746232213997").done();
     b.aggregate("kardinalnostLevo", 0x505e9faf5488c68cL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL).optional(false).ordered(true).multiple(false).origin("5791241746231379596").done();
     b.aggregate("kardinalnostDesno", 0x505e9faf5488c68dL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL).optional(false).ordered(true).multiple(false).origin("5791241746231379597").done();
     return b.create();
