@@ -13,6 +13,8 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor {
   private final BHDescriptor myInterface__BehaviorDescriptor = new Interface__BehaviorDescriptor();
+  private final BHDescriptor myKlasa__BehaviorDescriptor = new Klasa__BehaviorDescriptor();
+  private final BHDescriptor myDijagram__BehaviorDescriptor = new Dijagram__BehaviorDescriptor();
 
   public BehaviorAspectDescriptor() {
   }
@@ -22,10 +24,14 @@ public final class BehaviorAspectDescriptor extends BaseBehaviorAspectDescriptor
     SAbstractConcept cncpt = concept;
     switch (conceptIndex.index(cncpt)) {
       case 0:
+        return myDijagram__BehaviorDescriptor;
+      case 1:
         return myInterface__BehaviorDescriptor;
+      case 2:
+        return myKlasa__BehaviorDescriptor;
       default:
     }
     return null;
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL)).seal();
 }

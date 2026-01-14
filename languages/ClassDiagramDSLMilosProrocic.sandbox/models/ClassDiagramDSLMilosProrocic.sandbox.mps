@@ -112,6 +112,10 @@
         <property role="TrG5h" value="name" />
         <property role="3MWlHh" value="string" />
       </node>
+      <node concept="1Fdp5F" id="3IEtu39smFT" role="4QnIk">
+        <property role="TrG5h" value="a1" />
+        <property role="3MWlHh" value="asdf" />
+      </node>
     </node>
   </node>
 </model>

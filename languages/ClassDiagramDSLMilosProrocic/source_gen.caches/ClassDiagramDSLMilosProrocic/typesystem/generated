@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="asv0glux3ysepqwteeds3t8mh399pdk">
-  <files names="TypesystemDescriptor.java:check_EnumeracijaValue_NonTypesystemRule.java:check_Interface_NonTypesystemRule.java:check_Kardinalnost_NonTypesystemRule.java" />
+<product version="3" modelHash="-6txzuumyfd3645k1mzcvbe7bawhiiky">
+  <files names="TypesystemDescriptor.java:check_EnumeracijaValue_NonTypesystemRule.java:check_Kardinalnost_NonTypesystemRule.java:check_name_Atribut_NonTypesystemRule.java:check_name_Interface_NonTypesystemRule.java:check_name_Klasa_NonTypesystemRule.java:check_unique_Atribut_NonTypesystemRule.java" />
 </product>
 

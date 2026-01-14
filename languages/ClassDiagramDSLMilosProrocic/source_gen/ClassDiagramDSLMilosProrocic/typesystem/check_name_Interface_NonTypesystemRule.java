@@ -16,8 +16,8 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
-public class check_Interface_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-  public check_Interface_NonTypesystemRule() {
+public class check_name_Interface_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
+  public check_name_Interface_NonTypesystemRule() {
   }
   public void applyRule(final SNode i, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     if (SPropertyOperations.getString(i, PROPS.name$MnvL).length() < 2) {

@@ -35,6 +35,10 @@
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -60,6 +64,9 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ngI" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -94,6 +101,10 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
+        <reference id="1138405853777" name="concept" index="ehGHo" />
+      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -270,6 +281,57 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3IEtu39tRnY">
+    <property role="TrG5h" value="intention_generate_Atribut_name" />
+    <ref role="2ZfgGC" to="ldom:TgpFD_pvvh" resolve="Atribut" />
+    <node concept="2S6ZIM" id="3IEtu39tRnZ" role="2ZfVej">
+      <node concept="3clFbS" id="3IEtu39tRo0" role="2VODD2">
+        <node concept="3clFbF" id="3IEtu39tRvr" role="3cqZAp">
+          <node concept="Xl_RD" id="3IEtu39tRvq" role="3clFbG">
+            <property role="Xl_RC" value="Dodaj sufix na naziv" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3IEtu39tRo1" role="2ZfgGD">
+      <node concept="3clFbS" id="3IEtu39tRo2" role="2VODD2">
+        <node concept="3clFbF" id="3IEtu39tRO8" role="3cqZAp">
+          <node concept="37vLTI" id="3IEtu39tTay" role="3clFbG">
+            <node concept="3cpWs3" id="3IEtu39tVkF" role="37vLTx">
+              <node concept="2OqwBi" id="3IEtu39tTxn" role="3uHU7B">
+                <node concept="2Sf5sV" id="3IEtu39tTmW" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3IEtu39tTTh" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3IEtu39u1Vr" role="3uHU7w">
+                <node concept="1eOMI4" id="3IEtu39tZY2" role="2Oq$k0">
+                  <node concept="10QFUN" id="3IEtu39tZBF" role="1eOMHV">
+                    <node concept="3Tqbb2" id="3IEtu39tZEY" role="10QFUM">
+                      <ref role="ehGHo" to="ldom:TgpFD_pybX" resolve="Klasa" />
+                    </node>
+                    <node concept="2OqwBi" id="3IEtu39tZdk" role="10QFUP">
+                      <node concept="2Sf5sV" id="3IEtu39tYST" role="2Oq$k0" />
+                      <node concept="1mfA1w" id="3IEtu39tZuE" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3IEtu39u2mS" role="2OqNvi">
+                  <ref role="37wK5l" to="culq:3IEtu39tDqu" resolve="getAtributSuffix" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="3IEtu39tRYm" role="37vLTJ">
+              <node concept="2Sf5sV" id="3IEtu39tRO7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3IEtu39tSbh" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
               </node>
             </node>
           </node>

@@ -35,10 +35,17 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
         if (true) {
           // concept
           intentions = new IntentionFactory[1];
-          intentions[0] = new intention_add_Interface_prefix_Intention();
+          intentions[0] = new intention_generate_Atribut_name_Intention();
         }
         break;
       case 1:
+        if (true) {
+          // concept
+          intentions = new IntentionFactory[1];
+          intentions[0] = new intention_add_Interface_prefix_Intention();
+        }
+        break;
+      case 2:
         if (true) {
           // concept
           intentions = new IntentionFactory[2];
@@ -55,11 +62,12 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[3];
+    IntentionFactory[] rv = new IntentionFactory[4];
     rv[0] = new intention_add_Interface_prefix_Intention();
     rv[1] = new intention_set_Kardinalnost_asterix_Intention();
     rv[2] = new intention_set_Kardinalnost_order_Intention();
+    rv[3] = new intention_generate_Atribut_name_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL)).seal();
 }
