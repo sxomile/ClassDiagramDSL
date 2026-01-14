@@ -16,8 +16,7 @@ public final class LanguageConceptSwitch {
   public static final int Interface = 4;
   public static final int Kardinalnost = 5;
   public static final int Klasa = 6;
-  public static final int TipAtributa = 7;
-  public static final int Veza = 8;
+  public static final int Veza = 7;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1930d0ecd9194e4cL, 0xb5d876474568c949L);
@@ -28,7 +27,6 @@ public final class LanguageConceptSwitch {
     builder.put(0xe5066ba65655f5cL, Interface);
     builder.put(0x505e9faf5487ef8eL, Kardinalnost);
     builder.put(0xe5066ba656622fdL, Klasa);
-    builder.put(0x505e9faf5489789fL, TipAtributa);
     builder.put(0xe5066ba656622ffL, Veza);
     myIndex = builder.seal();
   }

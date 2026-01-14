@@ -21,7 +21,6 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -66,8 +65,8 @@
     <node concept="PrWs8" id="TgpFD_pvvi" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="51uBUXkzFhy" role="1TKVEl">
-      <property role="IQ2nx" value="5791241746231768162" />
+    <node concept="1TJgyi" id="3IEtu39mMUL" role="1TKVEl">
+      <property role="IQ2nx" value="4299378402589879985" />
       <property role="TrG5h" value="tipAtributa" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
@@ -90,7 +89,6 @@
   <node concept="1TIwiD" id="TgpFD_pybX">
     <property role="EcuMT" value="1031437265418986237" />
     <property role="TrG5h" value="Klasa" />
-    <property role="34LRSv" value="&quot;Klasa&quot;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="TgpFD_pybY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -225,14 +223,6 @@
     <property role="TrG5h" value="EnumeracijaValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="51uBUXkyhIY" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="51uBUXkynyv">
-    <property role="EcuMT" value="5791241746231425183" />
-    <property role="TrG5h" value="TipAtributa" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="51uBUXkynyw" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

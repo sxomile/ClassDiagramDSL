@@ -84,7 +84,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_1() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.tipAtributa$Pv1I;
+      final SProperty property = PROPS.tipAtributa$Len0;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no tipAtributa>");
@@ -105,7 +105,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
 
   private static final class PROPS {
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
-    /*package*/ static final SProperty tipAtributa$Pv1I = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L, 0x505e9faf548eb462L, "tipAtributa");
+    /*package*/ static final SProperty tipAtributa$Len0 = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L, 0x3baa75e0c95b2eb1L, "tipAtributa");
   }
 
   private static final class CONCEPTS {
