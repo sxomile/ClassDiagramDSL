@@ -20,7 +20,7 @@
       </concept>
       <concept id="1031437265418936156" name="ClassDiagramDSLMilosProrocic.structure.Interface" flags="ng" index="1FdjBA" />
       <concept id="1031437265418975185" name="ClassDiagramDSLMilosProrocic.structure.Atribut" flags="ng" index="1Fdp5F">
-        <property id="5791241746231768162" name="tipAtributa" index="4O2Jd" />
+        <property id="4299378402589879985" name="tipAtributa" index="3MWlHh" />
       </concept>
       <concept id="1031437265418976410" name="ClassDiagramDSLMilosProrocic.structure.Enumeracija" flags="ng" index="1FdpCw">
         <child id="5791241746231401415" name="vrednosti" index="4PShC" />
@@ -28,7 +28,7 @@
       <concept id="1031437265418986239" name="ClassDiagramDSLMilosProrocic.structure.Veza" flags="ng" index="1Fd$h5">
         <property id="5791241746232213997" name="nazivKlaseDesno" index="4MLT2" />
         <property id="5791241746232213996" name="nazivKlaseLevo" index="4MLT3" />
-        <property id="5791241746231324563" name="tipVeze" index="4Qn0W" />
+        <property id="5791241746231324563" name="TipVeze" index="4Qn0W" />
         <child id="5791241746231379597" name="kardinalnostDesno" index="4P_$y" />
         <child id="5791241746231379596" name="kardinalnostLevo" index="4P_$z" />
       </concept>
@@ -88,26 +88,29 @@
     <node concept="1FdjBA" id="51uBUXk$JXz" role="4QnoQ">
       <property role="TrG5h" value="IOperacije" />
     </node>
+    <node concept="1FdjBA" id="3IEtu39mMUa" role="4QnoQ">
+      <property role="TrG5h" value="IAction" />
+    </node>
     <node concept="1Fd$h7" id="51uBUXk$JX$" role="4QnoR">
       <property role="TrG5h" value="klasa1" />
-      <node concept="1Fdp5F" id="51uBUXk$JX_" role="4QnIk">
+      <node concept="1Fdp5F" id="3IEtu39n1Vb" role="4QnIk">
         <property role="TrG5h" value="id" />
-        <property role="4O2Jd" value="int" />
+        <property role="3MWlHh" value="int" />
       </node>
-      <node concept="1Fdp5F" id="51uBUXk$JXB" role="4QnIk">
+      <node concept="1Fdp5F" id="3IEtu39n1Va" role="4QnIk">
         <property role="TrG5h" value="name" />
-        <property role="4O2Jd" value="string" />
+        <property role="3MWlHh" value="string" />
       </node>
     </node>
-    <node concept="1Fd$h7" id="51uBUXk_aOO" role="4QnoR">
+    <node concept="1Fd$h7" id="3IEtu39n1Vc" role="4QnoR">
       <property role="TrG5h" value="klasa2" />
-      <node concept="1Fdp5F" id="51uBUXk_aOP" role="4QnIk">
+      <node concept="1Fdp5F" id="3IEtu39n1Vd" role="4QnIk">
         <property role="TrG5h" value="id" />
-        <property role="4O2Jd" value="int" />
+        <property role="3MWlHh" value="integer" />
       </node>
-      <node concept="1Fdp5F" id="51uBUXk_aOQ" role="4QnIk">
+      <node concept="1Fdp5F" id="3IEtu39n1Ve" role="4QnIk">
         <property role="TrG5h" value="name" />
-        <property role="4O2Jd" value="string" />
+        <property role="3MWlHh" value="string" />
       </node>
     </node>
   </node>

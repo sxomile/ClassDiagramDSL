@@ -23,7 +23,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptInterface = createDescriptorForInterface();
   /*package*/ final ConceptDescriptor myConceptKardinalnost = createDescriptorForKardinalnost();
   /*package*/ final ConceptDescriptor myConceptKlasa = createDescriptorForKlasa();
-  /*package*/ final ConceptDescriptor myConceptTipAtributa = createDescriptorForTipAtributa();
   /*package*/ final ConceptDescriptor myConceptVeza = createDescriptorForVeza();
   /*package*/ final EnumerationDescriptor myEnumerationTipVezeEnum = new EnumerationDescriptor_TipVezeEnum();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -40,7 +39,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAtribut, myConceptDijagram, myConceptEnumeracija, myConceptEnumeracijaValue, myConceptInterface, myConceptKardinalnost, myConceptKlasa, myConceptTipAtributa, myConceptVeza);
+    return Arrays.asList(myConceptAtribut, myConceptDijagram, myConceptEnumeracija, myConceptEnumeracijaValue, myConceptInterface, myConceptKardinalnost, myConceptKlasa, myConceptVeza);
   }
 
   @Override
@@ -61,8 +60,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptKardinalnost;
       case LanguageConceptSwitch.Klasa:
         return myConceptKlasa;
-      case LanguageConceptSwitch.TipAtributa:
-        return myConceptTipAtributa;
       case LanguageConceptSwitch.Veza:
         return myConceptVeza;
       default:
@@ -85,7 +82,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/1031437265418975185");
     b.version(3);
-    b.property("tipAtributa", 0x505e9faf548eb462L).type(PrimitiveTypeId.STRING).origin("5791241746231768162").done();
+    b.property("tipAtributa", 0x3baa75e0c95b2eb1L).type(PrimitiveTypeId.STRING).origin("4299378402589879985").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForDijagram() {
@@ -143,15 +140,6 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.associate("extendsClass", 0x505e9faf548bc8a5L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL).optional(true).origin("5791241746231576741").done();
     b.aggregate("atributi", 0x505e9faf5487e43bL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L).optional(true).ordered(true).multiple(true).origin("5791241746231321659").done();
     b.aggregate("implementsInterface", 0x505e9faf548bc8a8L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231576744").done();
-    b.alias("\"Klasa\"");
-    return b.create();
-  }
-  private static ConceptDescriptor createDescriptorForTipAtributa() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "TipAtributa", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5489789fL);
-    b.class_(false, false, false);
-    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231425183");
-    b.version(3);
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForVeza() {

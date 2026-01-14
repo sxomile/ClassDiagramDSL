@@ -180,16 +180,10 @@
       <node concept="3F0ifn" id="51uBUXkzFhz" role="3EZMnx">
         <property role="3F0ifm" value=":" />
       </node>
-      <node concept="3F0A7n" id="51uBUXkzFhC" role="3EZMnx">
-        <ref role="1NtTu8" to="ldom:51uBUXkzFhy" resolve="tipAtributa" />
+      <node concept="3F0A7n" id="3IEtu39mMUP" role="3EZMnx">
+        <ref role="1NtTu8" to="ldom:3IEtu39mMUL" resolve="tipAtributa" />
       </node>
       <node concept="2iRfu4" id="51uBUXkynyj" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="51uBUXkyNOJ">
-    <ref role="1XX52x" to="ldom:51uBUXkynyv" resolve="TipAtributa" />
-    <node concept="3F0A7n" id="51uBUXkyNOL" role="2wV5jI">
-      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="51uBUXkyWyy">

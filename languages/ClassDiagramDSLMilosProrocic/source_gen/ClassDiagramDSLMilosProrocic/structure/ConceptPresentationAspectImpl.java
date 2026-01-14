@@ -16,7 +16,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Interface;
   private ConceptPresentation props_Kardinalnost;
   private ConceptPresentation props_Klasa;
-  private ConceptPresentation props_TipAtributa;
   private ConceptPresentation props_Veza;
 
   @Override
@@ -73,13 +72,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Klasa = cpb.create();
         }
         return props_Klasa;
-      case LanguageConceptSwitch.TipAtributa:
-        if (props_TipAtributa == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
-          props_TipAtributa = cpb.create();
-        }
-        return props_TipAtributa;
       case LanguageConceptSwitch.Veza:
         if (props_Veza == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
