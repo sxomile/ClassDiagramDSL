@@ -49,8 +49,8 @@
       <property role="4Qn0W" value="51uBUXkxYh7/kompozicija" />
       <property role="4MLT2" value="klasa2" />
       <node concept="4Qn0x" id="51uBUXk_NSN" role="4P_$z">
-        <property role="4QmAF" value="0" />
-        <property role="4QmAE" value="5" />
+        <property role="4QmAF" value="3" />
+        <property role="4QmAE" value="*" />
       </node>
       <node concept="4Qn0x" id="51uBUXk_NSO" role="4P_$y">
         <property role="4QmAF" value="0" />
@@ -62,12 +62,12 @@
       <property role="4Qn0W" value="51uBUXkxYgZ/agregacija" />
       <property role="4MLT2" value="klasa1" />
       <node concept="4Qn0x" id="51uBUXkAITR" role="4P_$z">
-        <property role="4QmAF" value="0" />
-        <property role="4QmAE" value="5" />
+        <property role="4QmAF" value="5" />
+        <property role="4QmAE" value="9" />
       </node>
       <node concept="4Qn0x" id="51uBUXkAITS" role="4P_$y">
         <property role="4QmAF" value="0" />
-        <property role="4QmAE" value="3" />
+        <property role="4QmAE" value="*" />
       </node>
     </node>
     <node concept="1FdpCw" id="51uBUXk$JXC" role="4NzjX">
