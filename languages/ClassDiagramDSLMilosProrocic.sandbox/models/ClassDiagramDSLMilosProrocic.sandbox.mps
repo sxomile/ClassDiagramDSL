@@ -101,9 +101,13 @@
         <property role="TrG5h" value="name" />
         <property role="3MWlHh" value="string" />
       </node>
+      <node concept="1Fdp5F" id="1kfKV0s2RTf" role="4QnIk">
+        <property role="TrG5h" value="Atribut_3" />
+        <property role="3MWlHh" value="dat" />
+      </node>
     </node>
     <node concept="1Fd$h7" id="3IEtu39n1Vc" role="4QnoR">
-      <property role="TrG5h" value="klasa2" />
+      <property role="TrG5h" value="dat" />
       <node concept="1Fdp5F" id="3IEtu39n1Vd" role="4QnIk">
         <property role="TrG5h" value="id" />
         <property role="3MWlHh" value="integer" />

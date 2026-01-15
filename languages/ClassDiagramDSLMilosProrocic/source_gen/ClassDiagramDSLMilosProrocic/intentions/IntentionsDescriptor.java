@@ -34,8 +34,16 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
       case 0:
         if (true) {
           // concept
-          intentions = new IntentionFactory[1];
+          intentions = new IntentionFactory[9];
           intentions[0] = new intention_generate_Atribut_name_Intention();
+          intentions[1] = new intention_set_Atribut_type_string_Intention();
+          intentions[2] = new intention_set_Atribut_type_boolean_Intention();
+          intentions[3] = new intention_set_Atribut_type_integer_Intention();
+          intentions[4] = new intention_set_Atribut_type_real_Intention();
+          intentions[5] = new intention_set_Atribut_type_undefined_Intention();
+          intentions[6] = new intention_set_Atribut_type_date_Intention();
+          intentions[7] = new intention_set_Atribut_type_datetime_error_Intention();
+          intentions[8] = new intention_set_Atribut_type_warning_Intention();
         }
         break;
       case 1:
@@ -77,7 +85,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[7];
+    IntentionFactory[] rv = new IntentionFactory[15];
     rv[0] = new intention_add_Interface_prefix_Intention();
     rv[1] = new intention_set_Kardinalnost_asterix_Intention();
     rv[2] = new intention_set_Kardinalnost_order_Intention();
@@ -85,6 +93,14 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     rv[4] = new intention_generate_Interface_name_Intention();
     rv[5] = new intention_generate_Enumeracija_name_Intention();
     rv[6] = new intention_generate_Klasa_name_Intention();
+    rv[7] = new intention_set_Atribut_type_string_Intention();
+    rv[8] = new intention_set_Atribut_type_boolean_Intention();
+    rv[9] = new intention_set_Atribut_type_integer_Intention();
+    rv[10] = new intention_set_Atribut_type_real_Intention();
+    rv[11] = new intention_set_Atribut_type_undefined_Intention();
+    rv[12] = new intention_set_Atribut_type_date_Intention();
+    rv[13] = new intention_set_Atribut_type_datetime_error_Intention();
+    rv[14] = new intention_set_Atribut_type_warning_Intention();
     return Arrays.asList(rv);
   }
   private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565fc9aL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487ef8eL), MetaIdFactory.conceptId(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL)).seal();
