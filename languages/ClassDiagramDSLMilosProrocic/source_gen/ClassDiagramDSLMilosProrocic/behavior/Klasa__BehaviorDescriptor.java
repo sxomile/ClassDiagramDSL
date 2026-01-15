@@ -34,7 +34,7 @@ public final class Klasa__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static String getAtributSuffix_id3IEtu39tDqu(@NotNull SNode __thisNode__) {
-    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.atributi$NX3U)).count() + 1);
+    return "_" + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.atributi$NX3U)).count() + 1);
   }
 
   /*package*/ Klasa__BehaviorDescriptor() {

@@ -13,22 +13,22 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import ClassDiagramDSLMilosProrocic.behavior.Klasa__BehaviorDescriptor;
+import ClassDiagramDSLMilosProrocic.behavior.Dijagram__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
-public final class intention_generate_Atribut_name_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
+public final class intention_generate_Interface_name_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
 
-  public intention_generate_Atribut_name_Intention() {
-    super(Kind.NORMAL, false, new SNodePointer("r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)", "4299378402591733246"));
+  public intention_generate_Interface_name_Intention() {
+    super(Kind.NORMAL, false, new SNodePointer("r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)", "2465447832825485677"));
   }
 
   @Override
   public String getPresentation() {
-    return "intention_generate_Atribut_name";
+    return "intention_generate_Interface_name";
   }
 
   @Override
@@ -48,12 +48,12 @@ public final class intention_generate_Atribut_name_Intention extends AbstractInt
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Dodaj sufix na naziv atributa";
+      return "Dodaj sufix na naziv";
     }
 
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.assign(node, PROPS.name$MnvL, SPropertyOperations.getString(node, PROPS.name$MnvL) + Klasa__BehaviorDescriptor.getAtributSuffix_id3IEtu39tDqu.invoke(((SNode) SNodeOperations.getParent(node))));
+      SPropertyOperations.assign(node, PROPS.name$MnvL, SPropertyOperations.getString(node, PROPS.name$MnvL) + Dijagram__BehaviorDescriptor.getInterfaceSuffix_id3IEtu39uWxB.invoke(((SNode) SNodeOperations.getParent(node))));
     }
 
     @Override
@@ -65,7 +65,7 @@ public final class intention_generate_Atribut_name_Intention extends AbstractInt
 
     @Override
     public IntentionDescriptor getDescriptor() {
-      return intention_generate_Atribut_name_Intention.this;
+      return intention_generate_Interface_name_Intention.this;
     }
 
   }

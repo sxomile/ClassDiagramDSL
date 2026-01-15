@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="7zkoq9enc1hxfxbn7dfq2q1r6j3o15j">
-  <files names="IntentionsDescriptor.java:intention_add_Interface_prefix_Intention.java:intention_generate_Atribut_name_Intention.java:intention_set_Kardinalnost_asterix_Intention.java:intention_set_Kardinalnost_order_Intention.java" />
+<product version="3" modelHash="-cp1xaedxvthoaysgen2z83rbc2yu1ki">
+  <files names="IntentionsDescriptor.java:intention_add_Interface_prefix_Intention.java:intention_generate_Atribut_name_Intention.java:intention_generate_Enumeracija_name_Intention.java:intention_generate_Interface_name_Intention.java:intention_generate_Klasa_name_Intention.java:intention_set_Kardinalnost_asterix_Intention.java:intention_set_Kardinalnost_order_Intention.java" />
 </product>
 

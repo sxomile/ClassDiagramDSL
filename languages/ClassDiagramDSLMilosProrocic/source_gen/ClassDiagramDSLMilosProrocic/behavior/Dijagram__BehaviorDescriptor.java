@@ -33,13 +33,13 @@ public final class Dijagram__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static String getInterfaceSuffix_id3IEtu39uWxB(@NotNull SNode __thisNode__) {
-    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.interfejsi$5e0d)).count() + 1);
+    return "_" + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.interfejsi$5e0d)).count() + 1);
   }
   /*package*/ static String getEnumSuffix_id3IEtu39v87s(@NotNull SNode __thisNode__) {
-    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.enumeracije$oHuo)).count() + 1);
+    return "_" + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.enumeracije$oHuo)).count() + 1);
   }
   /*package*/ static String getKlasaSuffix_id3IEtu39vmI3(@NotNull SNode __thisNode__) {
-    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.klase$5dLc)).count() + 1);
+    return "_" + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.klase$5dLc)).count() + 1);
   }
 
   /*package*/ Dijagram__BehaviorDescriptor() {
