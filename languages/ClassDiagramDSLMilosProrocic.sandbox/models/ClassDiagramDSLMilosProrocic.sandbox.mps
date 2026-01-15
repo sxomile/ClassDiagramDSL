@@ -95,7 +95,7 @@
       <property role="TrG5h" value="klasa1" />
       <node concept="1Fdp5F" id="3IEtu39n1Vb" role="4QnIk">
         <property role="TrG5h" value="id" />
-        <property role="3MWlHh" value="int" />
+        <property role="3MWlHh" value="integer" />
       </node>
       <node concept="1Fdp5F" id="3IEtu39n1Va" role="4QnIk">
         <property role="TrG5h" value="name" />
@@ -114,7 +114,7 @@
       </node>
       <node concept="1Fdp5F" id="3IEtu39smFT" role="4QnIk">
         <property role="TrG5h" value="a1" />
-        <property role="3MWlHh" value="asdf" />
+        <property role="3MWlHh" value="klasa1" />
       </node>
     </node>
   </node>
