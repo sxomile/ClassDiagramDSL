@@ -92,7 +92,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/5791241746231323030");
     b.version(3);
     b.aggregate("klase", 0x505e9faf5487e998L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL).optional(true).ordered(true).multiple(true).origin("5791241746231323032").done();
-    b.aggregate("intefejsi", 0x505e9faf5487e999L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231323033").done();
+    b.aggregate("interfejsi", 0x505e9faf5487e999L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231323033").done();
     b.aggregate("veze", 0x505e9faf5487e99aL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622ffL).optional(true).ordered(true).multiple(true).origin("5791241746231323034").done();
     b.aggregate("enumeracije", 0x505e9faf5490ab52L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565fc9aL).optional(true).ordered(true).multiple(true).origin("5791241746231896914").done();
     return b.create();

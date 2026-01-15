@@ -18,6 +18,12 @@ public class ActionAspectDescriptorImpl extends BaseActionAspectDescriptor imple
       switch (concept.getName()) {
         case "Atribut":
           return Collections.<NodeFactory>singletonList(new node_factory_Atribut_name.NodeFactory_4299378402591779224());
+        case "Enumeracija":
+          return Collections.<NodeFactory>singletonList(new node_factory_Enumeracija_name.NodeFactory_2465447832825166297());
+        case "Interface":
+          return Collections.<NodeFactory>singletonList(new node_factory_Interface_name.NodeFactory_2465447832824801000());
+        case "Klasa":
+          return Collections.<NodeFactory>singletonList(new node_factory_Klasa_name.NodeFactory_2465447832825004792());
         default:
       }
     }

@@ -31,5 +31,17 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       NonTypesystemRule_Runtime nonTypesystemRule = new check_unique_Atribut_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
+    {
+      NonTypesystemRule_Runtime nonTypesystemRule = new check_unique_Enumeracija_NonTypesystemRule();
+      this.myNonTypesystemRules.add(nonTypesystemRule);
+    }
+    {
+      NonTypesystemRule_Runtime nonTypesystemRule = new check_unique_Interface_NonTypesystemRule();
+      this.myNonTypesystemRules.add(nonTypesystemRule);
+    }
+    {
+      NonTypesystemRule_Runtime nonTypesystemRule = new check_unique_Klasa_NonTypesystemRule();
+      this.myNonTypesystemRules.add(nonTypesystemRule);
+    }
   }
 }

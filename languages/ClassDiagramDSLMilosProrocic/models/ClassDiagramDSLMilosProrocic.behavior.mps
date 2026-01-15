@@ -170,7 +170,7 @@
                   <node concept="2OqwBi" id="3IEtu39uYZJ" role="2Oq$k0">
                     <node concept="13iPFW" id="3IEtu39uYL9" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="3IEtu39uZ97" role="2OqNvi">
-                      <ref role="3TtcxE" to="ldom:51uBUXkxYAp" resolve="intefejsi" />
+                      <ref role="3TtcxE" to="ldom:51uBUXkxYAp" resolve="interfejsi" />
                     </node>
                   </node>
                   <node concept="34oBXx" id="3IEtu39v5oF" role="2OqNvi" />

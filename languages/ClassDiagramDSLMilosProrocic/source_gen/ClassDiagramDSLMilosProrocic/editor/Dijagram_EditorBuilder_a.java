@@ -177,17 +177,17 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new intefejsiListHandler_e1io18_a1b1c0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new interfejsiListHandler_e1io18_a1b1c0(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_intefejsi");
+    editorCell.setCellId("refNodeList_interfejsi");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class intefejsiListHandler_e1io18_a1b1c0 extends RefNodeListHandler {
+  private static class interfejsiListHandler_e1io18_a1b1c0 extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public intefejsiListHandler_e1io18_a1b1c0(SNode ownerNode, EditorContext context) {
+    public interfejsiListHandler_e1io18_a1b1c0(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -197,7 +197,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return LINKS.intefejsi$5e0d;
+      return LINKS.interfejsi$5e0d;
     }
     public SAbstractConcept getChildSConcept() {
       return CONCEPTS.Interface$9L;
@@ -210,7 +210,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(intefejsiListHandler_e1io18_a1b1c0.this.getNode(), LINKS.intefejsi$5e0d));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(interfejsiListHandler_e1io18_a1b1c0.this.getNode(), LINKS.interfejsi$5e0d));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -597,7 +597,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink intefejsi$5e0d = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e999L, "intefejsi");
+    /*package*/ static final SContainmentLink interfejsi$5e0d = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e999L, "interfejsi");
     /*package*/ static final SContainmentLink klase$5dLc = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e998L, "klase");
     /*package*/ static final SContainmentLink enumeracije$oHuo = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5490ab52L, "enumeracije");
     /*package*/ static final SContainmentLink veze$5efe = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e99aL, "veze");

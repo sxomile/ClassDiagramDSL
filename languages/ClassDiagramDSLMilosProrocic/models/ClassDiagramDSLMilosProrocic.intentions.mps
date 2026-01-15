@@ -122,7 +122,7 @@
       <node concept="3clFbS" id="3IEtu39n7MS" role="2VODD2">
         <node concept="3clFbF" id="3IEtu39n8ug" role="3cqZAp">
           <node concept="Xl_RD" id="3IEtu39n8uf" role="3clFbG">
-            <property role="Xl_RC" value="Add prefix I to Interface name" />
+            <property role="Xl_RC" value="Dodaj prefix I na naziv" />
           </node>
         </node>
       </node>

@@ -33,7 +33,7 @@ public final class Dijagram__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   /*package*/ static String getInterfaceSuffix_id3IEtu39uWxB(@NotNull SNode __thisNode__) {
-    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.intefejsi$5e0d)).count() + 1);
+    return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.interfejsi$5e0d)).count() + 1);
   }
   /*package*/ static String getEnumSuffix_id3IEtu39v87s(@NotNull SNode __thisNode__) {
     return " - " + (ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.enumeracije$oHuo)).count() + 1);
@@ -93,7 +93,7 @@ public final class Dijagram__BehaviorDescriptor extends BaseBHDescriptor {
   }
 
   private static final class LINKS {
-    /*package*/ static final SContainmentLink intefejsi$5e0d = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e999L, "intefejsi");
+    /*package*/ static final SContainmentLink interfejsi$5e0d = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e999L, "interfejsi");
     /*package*/ static final SContainmentLink enumeracije$oHuo = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5490ab52L, "enumeracije");
     /*package*/ static final SContainmentLink klase$5dLc = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e998L, "klase");
   }

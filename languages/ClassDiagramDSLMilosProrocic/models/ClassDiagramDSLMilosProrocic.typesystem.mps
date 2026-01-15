@@ -613,5 +613,264 @@
       <ref role="1YaFvo" to="ldom:TgpFD_pvvh" resolve="Atribut" />
     </node>
   </node>
+  <node concept="18kY7G" id="28R1VRfKBbK">
+    <property role="TrG5h" value="check_unique_Interface" />
+    <node concept="3clFbS" id="28R1VRfKBbL" role="18ibNy">
+      <node concept="3cpWs8" id="28R1VRfKBc_" role="3cqZAp">
+        <node concept="3cpWsn" id="28R1VRfKBcC" role="3cpWs9">
+          <property role="TrG5h" value="dijagram" />
+          <node concept="3Tqbb2" id="28R1VRfKBcz" role="1tU5fm">
+            <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+          </node>
+          <node concept="10QFUN" id="28R1VRfKDqI" role="33vP2m">
+            <node concept="2OqwBi" id="28R1VRfKBn7" role="10QFUP">
+              <node concept="1YBJjd" id="28R1VRfKBcW" role="2Oq$k0">
+                <ref role="1YBMHb" node="28R1VRfKBbN" resolve="i" />
+              </node>
+              <node concept="1mfA1w" id="28R1VRfKDoz" role="2OqNvi" />
+            </node>
+            <node concept="3Tqbb2" id="28R1VRfKDvD" role="10QFUM">
+              <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="28R1VRfKDxw" role="3cqZAp" />
+      <node concept="2Gpval" id="28R1VRfKDyc" role="3cqZAp">
+        <node concept="2GrKxI" id="28R1VRfKDye" role="2Gsz3X">
+          <property role="TrG5h" value="interfejs" />
+        </node>
+        <node concept="2OqwBi" id="28R1VRfKDHk" role="2GsD0m">
+          <node concept="37vLTw" id="28R1VRfKDz1" role="2Oq$k0">
+            <ref role="3cqZAo" node="28R1VRfKBcC" resolve="dijagram" />
+          </node>
+          <node concept="3Tsc0h" id="28R1VRfKE6g" role="2OqNvi">
+            <ref role="3TtcxE" to="ldom:51uBUXkxYAp" resolve="interfejsi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="28R1VRfKDyi" role="2LFqv$">
+          <node concept="3clFbJ" id="28R1VRfLiy3" role="3cqZAp">
+            <node concept="1Wc70l" id="28R1VRfLjDd" role="3clFbw">
+              <node concept="2OqwBi" id="28R1VRfLqow" role="3uHU7w">
+                <node concept="2OqwBi" id="28R1VRfLk61" role="2Oq$k0">
+                  <node concept="2GrUjf" id="28R1VRfLjQH" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="28R1VRfKDye" resolve="interfejs" />
+                  </node>
+                  <node concept="3TrcHB" id="28R1VRfLpGs" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="28R1VRfLru8" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="28R1VRfLrK_" role="37wK5m">
+                    <node concept="1YBJjd" id="28R1VRfLrxz" role="2Oq$k0">
+                      <ref role="1YBMHb" node="28R1VRfKBbN" resolve="i" />
+                    </node>
+                    <node concept="3TrcHB" id="28R1VRfLsag" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="28R1VRfLjv7" role="3uHU7B">
+                <node concept="2GrUjf" id="28R1VRfLiyc" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="28R1VRfKDye" resolve="interfejs" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfLjAU" role="3uHU7w">
+                  <ref role="1YBMHb" node="28R1VRfKBbN" resolve="i" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="28R1VRfLiy5" role="3clFbx">
+              <node concept="2MkqsV" id="28R1VRfLsfI" role="3cqZAp">
+                <node concept="Xl_RD" id="28R1VRfLsfR" role="2MkJ7o">
+                  <property role="Xl_RC" value="Naziv interfejsa mora biti unikatan!" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfLsha" role="1urrMF">
+                  <ref role="1YBMHb" node="28R1VRfKBbN" resolve="i" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="28R1VRfKBbN" role="1YuTPh">
+      <property role="TrG5h" value="i" />
+      <ref role="1YaFvo" to="ldom:TgpFD_plXs" resolve="Interface" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="28R1VRfMyM5">
+    <property role="TrG5h" value="check_unique_Klasa" />
+    <node concept="3clFbS" id="28R1VRfMyM6" role="18ibNy">
+      <node concept="3cpWs8" id="28R1VRfMyNg" role="3cqZAp">
+        <node concept="3cpWsn" id="28R1VRfMyNj" role="3cpWs9">
+          <property role="TrG5h" value="dijagram" />
+          <node concept="3Tqbb2" id="28R1VRfMyNf" role="1tU5fm">
+            <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+          </node>
+          <node concept="10QFUN" id="28R1VRfMzor" role="33vP2m">
+            <node concept="3Tqbb2" id="28R1VRfMzr_" role="10QFUM">
+              <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+            </node>
+            <node concept="2OqwBi" id="28R1VRfMyXV" role="10QFUP">
+              <node concept="1YBJjd" id="28R1VRfMyNH" role="2Oq$k0">
+                <ref role="1YBMHb" node="28R1VRfMyM8" resolve="k" />
+              </node>
+              <node concept="1mfA1w" id="28R1VRfMzmg" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2Gpval" id="28R1VRfMzu4" role="3cqZAp">
+        <node concept="2GrKxI" id="28R1VRfMzu6" role="2Gsz3X">
+          <property role="TrG5h" value="klasa" />
+        </node>
+        <node concept="2OqwBi" id="28R1VRfMzCX" role="2GsD0m">
+          <node concept="37vLTw" id="28R1VRfMzuE" role="2Oq$k0">
+            <ref role="3cqZAo" node="28R1VRfMyNj" resolve="dijagram" />
+          </node>
+          <node concept="3Tsc0h" id="28R1VRfMzZY" role="2OqNvi">
+            <ref role="3TtcxE" to="ldom:51uBUXkxYAo" resolve="klase" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="28R1VRfMzua" role="2LFqv$">
+          <node concept="3clFbJ" id="28R1VRfM$4r" role="3cqZAp">
+            <node concept="1Wc70l" id="28R1VRfM$F6" role="3clFbw">
+              <node concept="2OqwBi" id="28R1VRfMA_H" role="3uHU7w">
+                <node concept="2OqwBi" id="28R1VRfM_0c" role="2Oq$k0">
+                  <node concept="2GrUjf" id="28R1VRfM$KS" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="28R1VRfMzu6" resolve="klasa" />
+                  </node>
+                  <node concept="3TrcHB" id="28R1VRfM_Uj" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="28R1VRfMBuH" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="28R1VRfMBAr" role="37wK5m">
+                    <node concept="1YBJjd" id="28R1VRfMBy8" role="2Oq$k0">
+                      <ref role="1YBMHb" node="28R1VRfMyM8" resolve="k" />
+                    </node>
+                    <node concept="3TrcHB" id="28R1VRfMC42" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="28R1VRfM$mG" role="3uHU7B">
+                <node concept="2GrUjf" id="28R1VRfM$4$" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="28R1VRfMzu6" resolve="klasa" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfM$wB" role="3uHU7w">
+                  <ref role="1YBMHb" node="28R1VRfMyM8" resolve="k" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="28R1VRfM$4t" role="3clFbx">
+              <node concept="2MkqsV" id="28R1VRfMC9$" role="3cqZAp">
+                <node concept="Xl_RD" id="28R1VRfMC9H" role="2MkJ7o">
+                  <property role="Xl_RC" value="Naziv klase mora biti unikatan!" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfMCa_" role="1urrMF">
+                  <ref role="1YBMHb" node="28R1VRfMyM8" resolve="k" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="28R1VRfMyM8" role="1YuTPh">
+      <property role="TrG5h" value="k" />
+      <ref role="1YaFvo" to="ldom:TgpFD_pybX" resolve="Klasa" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="28R1VRfNa0H">
+    <property role="TrG5h" value="check_unique_Enumeracija" />
+    <node concept="3clFbS" id="28R1VRfNa0I" role="18ibNy">
+      <node concept="3cpWs8" id="28R1VRfNa3o" role="3cqZAp">
+        <node concept="3cpWsn" id="28R1VRfNa3r" role="3cpWs9">
+          <property role="TrG5h" value="nodeDijagram" />
+          <node concept="3Tqbb2" id="28R1VRfNa3n" role="1tU5fm">
+            <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+          </node>
+          <node concept="10QFUN" id="28R1VRfNy7A" role="33vP2m">
+            <node concept="3Tqbb2" id="28R1VRfNyqc" role="10QFUM">
+              <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+            </node>
+            <node concept="2OqwBi" id="28R1VRfNwI8" role="10QFUP">
+              <node concept="1YBJjd" id="28R1VRfNwv6" role="2Oq$k0">
+                <ref role="1YBMHb" node="28R1VRfNa0K" resolve="e" />
+              </node>
+              <node concept="1mfA1w" id="28R1VRfNx8V" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2Gpval" id="28R1VRfNaNC" role="3cqZAp">
+        <node concept="2GrKxI" id="28R1VRfNaNE" role="2Gsz3X">
+          <property role="TrG5h" value="en" />
+        </node>
+        <node concept="2OqwBi" id="28R1VRfNaYn" role="2GsD0m">
+          <node concept="37vLTw" id="28R1VRfNaO4" role="2Oq$k0">
+            <ref role="3cqZAo" node="28R1VRfNa3r" resolve="nodeDijagram" />
+          </node>
+          <node concept="3Tsc0h" id="28R1VRfNbm1" role="2OqNvi">
+            <ref role="3TtcxE" to="ldom:51uBUXk$aHi" resolve="enumeracije" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="28R1VRfNaNI" role="2LFqv$">
+          <node concept="3clFbJ" id="28R1VRfNbqx" role="3cqZAp">
+            <node concept="3clFbS" id="28R1VRfNbqz" role="3clFbx">
+              <node concept="2MkqsV" id="28R1VRfNf_2" role="3cqZAp">
+                <node concept="Xl_RD" id="28R1VRfNf_e" role="2MkJ7o">
+                  <property role="Xl_RC" value="Naziv enumeracije mora biti unikatan!" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfNfA5" role="1urrMF">
+                  <ref role="1YBMHb" node="28R1VRfNa0K" resolve="e" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="28R1VRfNbWS" role="3clFbw">
+              <node concept="2OqwBi" id="28R1VRfNdYe" role="3uHU7w">
+                <node concept="2OqwBi" id="28R1VRfNcjD" role="2Oq$k0">
+                  <node concept="2GrUjf" id="28R1VRfNc1I" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="28R1VRfNaNE" resolve="en" />
+                  </node>
+                  <node concept="3TrcHB" id="28R1VRfNd9N" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="28R1VRfNeRg" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
+                  <node concept="2OqwBi" id="28R1VRfNeZ2" role="37wK5m">
+                    <node concept="1YBJjd" id="28R1VRfNeUH" role="2Oq$k0">
+                      <ref role="1YBMHb" node="28R1VRfNa0K" resolve="e" />
+                    </node>
+                    <node concept="3TrcHB" id="28R1VRfNfg0" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="28R1VRfNbMI" role="3uHU7B">
+                <node concept="2GrUjf" id="28R1VRfNbGP" role="3uHU7B">
+                  <ref role="2Gs0qQ" node="28R1VRfNaNE" resolve="en" />
+                </node>
+                <node concept="1YBJjd" id="28R1VRfNbUz" role="3uHU7w">
+                  <ref role="1YBMHb" node="28R1VRfNa0K" resolve="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="28R1VRfNa0K" role="1YuTPh">
+      <property role="TrG5h" value="e" />
+      <ref role="1YaFvo" to="ldom:TgpFD_pvMq" resolve="Enumeracija" />
+    </node>
+  </node>
 </model>
 

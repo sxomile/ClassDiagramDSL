@@ -15,7 +15,7 @@
       <concept id="5791241746231323030" name="ClassDiagramDSLMilosProrocic.structure.Dijagram" flags="ng" index="4QnoT">
         <child id="5791241746231896914" name="enumeracije" index="4NzjX" />
         <child id="5791241746231323034" name="veze" index="4QnoP" />
-        <child id="5791241746231323033" name="intefejsi" index="4QnoQ" />
+        <child id="5791241746231323033" name="interfejsi" index="4QnoQ" />
         <child id="5791241746231323032" name="klase" index="4QnoR" />
       </concept>
       <concept id="1031437265418936156" name="ClassDiagramDSLMilosProrocic.structure.Interface" flags="ng" index="1FdjBA" />

@@ -6,7 +6,70 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root>
     <file name="ActionAspectDescriptorImpl.java">
-      <unit at="12,0,28,0" name="ClassDiagramDSLMilosProrocic.actions.ActionAspectDescriptorImpl" />
+      <unit at="12,0,34,0" name="ClassDiagramDSLMilosProrocic.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:c5587138-9b2b-4d55-b719-c0d05a8f9daa(ClassDiagramDSLMilosProrocic.actions)/2465447832824800999">
+    <file name="node_factory_Interface_name.java">
+      <node id="2465447832824802089" at="15,102,16,49" concept="2" />
+      <node id="2465447832824804563" at="16,49,17,157" concept="0" />
+      <node id="2465447832824800999" at="22,0,23,0" concept="3" trace="name$MnvL" />
+      <node id="2465447832824801000" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2465447832824801000" at="15,102,17,157">
+        <var name="nodeDijagram" id="2465447832824802092" />
+      </scope>
+      <scope id="2465447832824801000" at="15,0,19,0">
+        <var name="enclosingNode" id="2465447832824801000" />
+        <var name="index" id="2465447832824801000" />
+        <var name="model" id="2465447832824801000" />
+        <var name="newNode" id="2465447832824801000" />
+        <var name="sampleNode" id="2465447832824801000" />
+      </scope>
+      <unit id="2465447832824800999" at="21,0,24,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Interface_name$PROPS" />
+      <unit id="2465447832824801000" at="14,0,20,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Interface_name$NodeFactory_2465447832824801000" />
+      <unit id="2465447832824800999" at="13,0,25,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Interface_name" />
+    </file>
+  </root>
+  <root nodeRef="r:c5587138-9b2b-4d55-b719-c0d05a8f9daa(ClassDiagramDSLMilosProrocic.actions)/2465447832825004791">
+    <file name="node_factory_Klasa_name.java">
+      <node id="2465447832825004812" at="15,102,16,49" concept="2" />
+      <node id="2465447832825005771" at="16,49,17,149" concept="0" />
+      <node id="2465447832825004791" at="22,0,23,0" concept="3" trace="name$MnvL" />
+      <node id="2465447832825004792" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2465447832825004792" at="15,102,17,149">
+        <var name="nodeDijagram" id="2465447832825004815" />
+      </scope>
+      <scope id="2465447832825004792" at="15,0,19,0">
+        <var name="enclosingNode" id="2465447832825004792" />
+        <var name="index" id="2465447832825004792" />
+        <var name="model" id="2465447832825004792" />
+        <var name="newNode" id="2465447832825004792" />
+        <var name="sampleNode" id="2465447832825004792" />
+      </scope>
+      <unit id="2465447832825004791" at="21,0,24,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Klasa_name$PROPS" />
+      <unit id="2465447832825004792" at="14,0,20,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Klasa_name$NodeFactory_2465447832825004792" />
+      <unit id="2465447832825004791" at="13,0,25,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Klasa_name" />
+    </file>
+  </root>
+  <root nodeRef="r:c5587138-9b2b-4d55-b719-c0d05a8f9daa(ClassDiagramDSLMilosProrocic.actions)/2465447832825166296">
+    <file name="node_factory_Enumeracija_name.java">
+      <node id="2465447832825166317" at="15,102,16,49" concept="2" />
+      <node id="2465447832825167000" at="16,49,17,154" concept="0" />
+      <node id="2465447832825166296" at="22,0,23,0" concept="3" trace="name$MnvL" />
+      <node id="2465447832825166297" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2465447832825166297" at="15,102,17,154">
+        <var name="nodeDijagram" id="2465447832825166320" />
+      </scope>
+      <scope id="2465447832825166297" at="15,0,19,0">
+        <var name="enclosingNode" id="2465447832825166297" />
+        <var name="index" id="2465447832825166297" />
+        <var name="model" id="2465447832825166297" />
+        <var name="newNode" id="2465447832825166297" />
+        <var name="sampleNode" id="2465447832825166297" />
+      </scope>
+      <unit id="2465447832825166296" at="21,0,24,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Enumeracija_name$PROPS" />
+      <unit id="2465447832825166297" at="14,0,20,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Enumeracija_name$NodeFactory_2465447832825166297" />
+      <unit id="2465447832825166296" at="13,0,25,0" name="ClassDiagramDSLMilosProrocic.actions.node_factory_Enumeracija_name" />
     </file>
   </root>
   <root nodeRef="r:c5587138-9b2b-4d55-b719-c0d05a8f9daa(ClassDiagramDSLMilosProrocic.actions)/4299378402591779223">

@@ -302,7 +302,7 @@
             <node concept="3EZMnI" id="51uBUXkAw8k" role="3EZMnx">
               <node concept="VPM3Z" id="51uBUXkAw8m" role="3F10Kt" />
               <node concept="3F2HdR" id="51uBUXkAw8s" role="3EZMnx">
-                <ref role="1NtTu8" to="ldom:51uBUXkxYAp" resolve="intefejsi" />
+                <ref role="1NtTu8" to="ldom:51uBUXkxYAp" resolve="interfejsi" />
                 <node concept="2iRkQZ" id="51uBUXkAw8u" role="2czzBx" />
               </node>
               <node concept="2iRkQZ" id="51uBUXkAw8p" role="2iSdaV" />

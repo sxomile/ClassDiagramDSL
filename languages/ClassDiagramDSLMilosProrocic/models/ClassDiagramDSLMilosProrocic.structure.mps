@@ -184,7 +184,7 @@
     <node concept="1TJgyj" id="51uBUXkxYAp" role="1TKVEi">
       <property role="IQ2ns" value="5791241746231323033" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="intefejsi" />
+      <property role="20kJfa" value="interfejsi" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="TgpFD_plXs" resolve="Interface" />
     </node>

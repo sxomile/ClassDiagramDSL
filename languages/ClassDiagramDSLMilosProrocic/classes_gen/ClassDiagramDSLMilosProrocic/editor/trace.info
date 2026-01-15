@@ -1473,21 +1473,21 @@
       <node id="5791241746231896912" at="174,49,175,40" concept="1" />
       <node id="5791241746232508956" at="175,40,176,52" concept="1" />
       <node id="5791241746231896912" at="176,52,177,22" concept="6" />
-      <node id="5791241746231896912" at="179,44,180,105" concept="5" />
-      <node id="5791241746231896912" at="180,105,181,93" concept="5" />
-      <node id="5791241746231896912" at="181,93,182,50" concept="1" />
-      <node id="5791241746231896912" at="182,50,183,51" concept="1" />
+      <node id="5791241746231896912" at="179,44,180,106" concept="5" />
+      <node id="5791241746231896912" at="180,106,181,93" concept="5" />
+      <node id="5791241746231896912" at="181,93,182,51" concept="1" />
+      <node id="5791241746231896912" at="182,51,183,51" concept="1" />
       <node id="5791241746231896912" at="183,51,184,22" concept="6" />
-      <node id="5791241746231896912" at="190,87,191,28" concept="9" />
+      <node id="5791241746231896912" at="190,88,191,28" concept="9" />
       <node id="5791241746231896912" at="191,28,192,25" concept="1" />
       <node id="5791241746231896912" at="196,28,197,20" concept="6" />
-      <node id="5791241746231896912" at="199,40,200,34" concept="6" />
+      <node id="5791241746231896912" at="199,40,200,35" concept="6" />
       <node id="5791241746231896912" at="202,48,203,35" concept="6" />
       <node id="5791241746231896912" at="206,57,207,83" concept="5" />
       <node id="5791241746231896912" at="207,83,208,65" concept="1" />
       <node id="5791241746231896912" at="208,65,209,25" concept="6" />
       <node id="5791241746231896912" at="211,41,212,41" concept="1" />
-      <node id="5791241746231896912" at="212,41,213,149" concept="1" />
+      <node id="5791241746231896912" at="212,41,213,151" concept="1" />
       <node id="5791241746231896912" at="214,11,215,36" concept="5" />
       <node id="5791241746231896912" at="215,36,216,44" concept="1" />
       <node id="5791241746231896912" at="216,44,217,57" concept="1" />
@@ -1674,7 +1674,7 @@
       <node id="5791241746231896912" at="594,0,595,0" concept="8" trace="Klasa$E8" />
       <node id="5791241746231896912" at="595,0,596,0" concept="8" trace="Enumeracija$9c" />
       <node id="5791241746231896912" at="596,0,597,0" concept="8" trace="Veza$F6" />
-      <node id="5791241746231896912" at="600,0,601,0" concept="8" trace="intefejsi$5e0d" />
+      <node id="5791241746231896912" at="600,0,601,0" concept="8" trace="interfejsi$5e0d" />
       <node id="5791241746231896912" at="601,0,602,0" concept="8" trace="klase$5dLc" />
       <node id="5791241746231896912" at="602,0,603,0" concept="8" trace="enumeracije$oHuo" />
       <node id="5791241746231896912" at="603,0,604,0" concept="8" trace="veze$5efe" />
@@ -1699,7 +1699,7 @@
       <node id="5791241746231896912" at="48,0,52,0" concept="0" trace="Dijagram_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
       <node id="5791241746231945253" at="127,0,131,0" concept="4" trace="createIndentCell_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5791241746232569465" at="166,0,170,0" concept="4" trace="createIndentCell_1#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5791241746231896912" at="190,0,194,0" concept="0" trace="intefejsiListHandler_e1io18_a1b1c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="5791241746231896912" at="190,0,194,0" concept="0" trace="interfejsiListHandler_e1io18_a1b1c0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
       <node id="5791241746231896912" at="195,0,199,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
       <node id="5791241746231896912" at="228,97,232,9" concept="3" />
       <node id="5791241746231896912" at="234,95,238,9" concept="3" />
@@ -1759,7 +1759,7 @@
       <node id="5791241746231896912" at="397,0,404,0" concept="4" trace="createRefNodeList_2#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5791241746231896912" at="506,0,513,0" concept="4" trace="createRefNodeList_3#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5791241746231896912" at="170,0,179,0" concept="4" trace="createCollection_5#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="5791241746231896912" at="213,149,222,7" concept="10" />
+      <node id="5791241746231896912" at="213,151,222,7" concept="10" />
       <node id="5791241746231896912" at="279,0,288,0" concept="4" trace="createCollection_7#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
       <node id="5791241746231896912" at="322,141,331,7" concept="10" />
       <node id="5791241746231896912" at="388,0,397,0" concept="4" trace="createCollection_9#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
@@ -1788,7 +1788,7 @@
       <scope id="5791241746231896912" at="59,39,60,32" />
       <scope id="5791241746231945232" at="107,15,108,40" />
       <scope id="5791241746231896912" at="196,28,197,20" />
-      <scope id="5791241746231896912" at="199,40,200,34" />
+      <scope id="5791241746231896912" at="199,40,200,35" />
       <scope id="5791241746231896912" at="202,48,203,35" />
       <scope id="5791241746231896912" at="220,17,221,42" />
       <scope id="5791241746231896912" at="247,34,248,91" />
@@ -1817,7 +1817,7 @@
       <scope id="5791241746232569465" at="166,43,168,22">
         <var name="editorCell" id="5791241746232569465" />
       </scope>
-      <scope id="5791241746231896912" at="190,87,192,25" />
+      <scope id="5791241746231896912" at="190,88,192,25" />
       <scope id="5791241746231896912" at="229,122,231,146" />
       <scope id="5791241746231896912" at="235,34,237,142" />
       <scope id="5791241746231896912" at="241,34,243,146" />
@@ -2095,7 +2095,7 @@
       <unit id="5791241746231896912" at="587,0,590,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$PROPS" />
       <unit id="5791241746231896912" at="599,0,605,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$LINKS" />
       <unit id="5791241746231896912" at="591,0,598,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$CONCEPTS" />
-      <unit id="5791241746231896912" at="186,0,253,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$intefejsiListHandler_e1io18_a1b1c0" />
+      <unit id="5791241746231896912" at="186,0,253,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$interfejsiListHandler_e1io18_a1b1c0" />
       <unit id="5791241746231896912" at="295,0,362,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$klaseListHandler_e1io18_a1e1c0" />
       <unit id="5791241746231896912" at="404,0,471,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$enumeracijeListHandler_e1io18_a1h1c0" />
       <unit id="5791241746231896912" at="513,0,580,0" name="ClassDiagramDSLMilosProrocic.editor.Dijagram_EditorBuilder_a$vezeListHandler_e1io18_a1k1c0" />

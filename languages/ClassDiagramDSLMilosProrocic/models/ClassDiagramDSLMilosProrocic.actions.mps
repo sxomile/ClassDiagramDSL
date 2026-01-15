@@ -133,5 +133,146 @@
       </node>
     </node>
   </node>
+  <node concept="37WguZ" id="28R1VRfLQrB">
+    <property role="TrG5h" value="node_factory_Interface_name" />
+    <node concept="37WvkG" id="28R1VRfLQrC" role="37WGs$">
+      <ref role="37XkoT" to="ldom:TgpFD_plXs" resolve="Interface" />
+      <node concept="37Y9Zx" id="28R1VRfLQrD" role="37ZfLb">
+        <node concept="3clFbS" id="28R1VRfLQrE" role="2VODD2">
+          <node concept="3cpWs8" id="28R1VRfLQGD" role="3cqZAp">
+            <node concept="3cpWsn" id="28R1VRfLQGG" role="3cpWs9">
+              <property role="TrG5h" value="nodeDijagram" />
+              <node concept="3Tqbb2" id="28R1VRfLQGC" role="1tU5fm">
+                <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+              </node>
+              <node concept="10QFUN" id="28R1VRfLR9J" role="33vP2m">
+                <node concept="3Tqbb2" id="28R1VRfLRcv" role="10QFUM">
+                  <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+                </node>
+                <node concept="1r4N1M" id="28R1VRfM8lZ" role="10QFUP" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="28R1VRfLRjj" role="3cqZAp">
+            <node concept="37vLTI" id="28R1VRfLTiB" role="3clFbG">
+              <node concept="2OqwBi" id="28R1VRfLRy4" role="37vLTJ">
+                <node concept="1r4Lsj" id="28R1VRfLRji" role="2Oq$k0" />
+                <node concept="3TrcHB" id="28R1VRfLRPs" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="28R1VRfLVbd" role="37vLTx">
+                <node concept="Xl_RD" id="28R1VRfLTHb" role="3uHU7B">
+                  <property role="Xl_RC" value="Interfejs" />
+                </node>
+                <node concept="2OqwBi" id="28R1VRfLXux" role="3uHU7w">
+                  <node concept="37vLTw" id="28R1VRfLX7L" role="2Oq$k0">
+                    <ref role="3cqZAo" node="28R1VRfLQGG" resolve="nodeDijagram" />
+                  </node>
+                  <node concept="2qgKlT" id="28R1VRfLXNA" role="2OqNvi">
+                    <ref role="37wK5l" to="culq:3IEtu39uWxB" resolve="getInterfaceSuffix" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="28R1VRfMCbR">
+    <property role="TrG5h" value="node_factory_Klasa_name" />
+    <node concept="37WvkG" id="28R1VRfMCbS" role="37WGs$">
+      <ref role="37XkoT" to="ldom:TgpFD_pybX" resolve="Klasa" />
+      <node concept="37Y9Zx" id="28R1VRfMCbT" role="37ZfLb">
+        <node concept="3clFbS" id="28R1VRfMCbU" role="2VODD2">
+          <node concept="3cpWs8" id="28R1VRfMCcc" role="3cqZAp">
+            <node concept="3cpWsn" id="28R1VRfMCcf" role="3cpWs9">
+              <property role="TrG5h" value="nodeDijagram" />
+              <node concept="3Tqbb2" id="28R1VRfMCcb" role="1tU5fm">
+                <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+              </node>
+              <node concept="10QFUN" id="28R1VRfMCgw" role="33vP2m">
+                <node concept="3Tqbb2" id="28R1VRfMCiQ" role="10QFUM">
+                  <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+                </node>
+                <node concept="1r4N1M" id="28R1VRfMCek" role="10QFUP" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="28R1VRfMCrb" role="3cqZAp">
+            <node concept="37vLTI" id="28R1VRfMDTH" role="3clFbG">
+              <node concept="3cpWs3" id="28R1VRfMG26" role="37vLTx">
+                <node concept="2OqwBi" id="28R1VRfMGHh" role="3uHU7w">
+                  <node concept="37vLTw" id="28R1VRfMG8A" role="2Oq$k0">
+                    <ref role="3cqZAo" node="28R1VRfMCcf" resolve="nodeDijagram" />
+                  </node>
+                  <node concept="2qgKlT" id="28R1VRfMH3N" role="2OqNvi">
+                    <ref role="37wK5l" to="culq:3IEtu39vmI3" resolve="getKlasaSuffix" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="28R1VRfME66" role="3uHU7B">
+                  <property role="Xl_RC" value="Klasa" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="28R1VRfMCAy" role="37vLTJ">
+                <node concept="1r4Lsj" id="28R1VRfMCs2" role="2Oq$k0" />
+                <node concept="3TrcHB" id="28R1VRfMCUv" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="28R1VRfNfBo">
+    <property role="TrG5h" value="node_factory_Enumeracija_name" />
+    <node concept="37WvkG" id="28R1VRfNfBp" role="37WGs$">
+      <ref role="37XkoT" to="ldom:TgpFD_pvMq" resolve="Enumeracija" />
+      <node concept="37Y9Zx" id="28R1VRfNfBq" role="37ZfLb">
+        <node concept="3clFbS" id="28R1VRfNfBr" role="2VODD2">
+          <node concept="3cpWs8" id="28R1VRfNfBH" role="3cqZAp">
+            <node concept="3cpWsn" id="28R1VRfNfBK" role="3cpWs9">
+              <property role="TrG5h" value="nodeDijagram" />
+              <node concept="3Tqbb2" id="28R1VRfNfBG" role="1tU5fm">
+                <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+              </node>
+              <node concept="10QFUN" id="28R1VRfNfFH" role="33vP2m">
+                <node concept="3Tqbb2" id="28R1VRfNfI3" role="10QFUM">
+                  <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+                </node>
+                <node concept="1r4N1M" id="28R1VRfNfDx" role="10QFUP" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="28R1VRfNfMo" role="3cqZAp">
+            <node concept="37vLTI" id="28R1VRfNheU" role="3clFbG">
+              <node concept="2OqwBi" id="28R1VRfNfWT" role="37vLTJ">
+                <node concept="1r4Lsj" id="28R1VRfNfMn" role="2Oq$k0" />
+                <node concept="3TrcHB" id="28R1VRfNgfG" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="28R1VRfNjxs" role="37vLTx">
+                <node concept="2OqwBi" id="28R1VRfNjQM" role="3uHU7w">
+                  <node concept="37vLTw" id="28R1VRfNjBW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="28R1VRfNfBK" resolve="nodeDijagram" />
+                  </node>
+                  <node concept="2qgKlT" id="28R1VRfNkdk" role="2OqNvi">
+                    <ref role="37wK5l" to="culq:3IEtu39v87s" resolve="getEnumSuffix" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="28R1VRfNhAi" role="3uHU7B">
+                  <property role="Xl_RC" value="Enumeracija" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

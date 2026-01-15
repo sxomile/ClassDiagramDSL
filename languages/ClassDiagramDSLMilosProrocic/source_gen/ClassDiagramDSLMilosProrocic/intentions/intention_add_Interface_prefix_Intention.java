@@ -47,7 +47,7 @@ public final class intention_add_Interface_prefix_Intention extends AbstractInte
 
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
-      return "Add prefix I to Interface name";
+      return "Dodaj prefix I na naziv";
     }
 
     @Override

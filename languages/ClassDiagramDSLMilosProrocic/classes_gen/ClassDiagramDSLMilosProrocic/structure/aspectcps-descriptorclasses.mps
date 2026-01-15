@@ -2523,7 +2523,7 @@
                         <node concept="liA8E" id="di" role="2OqNvi">
                           <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.aggregate(java.lang.String,long)" resolve="aggregate" />
                           <node concept="Xl_RD" id="dj" role="37wK5m">
-                            <property role="Xl_RC" value="intefejsi" />
+                            <property role="Xl_RC" value="interfejsi" />
                           </node>
                           <node concept="11gdke" id="dk" role="37wK5m">
                             <property role="11gdj1" value="505e9faf5487e999L" />
