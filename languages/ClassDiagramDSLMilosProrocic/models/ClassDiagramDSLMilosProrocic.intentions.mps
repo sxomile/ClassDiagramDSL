@@ -166,6 +166,10 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
+        <child id="1225711182005" name="list" index="1y566C" />
+        <child id="1225711191269" name="index" index="1y58nS" />
+      </concept>
     </language>
   </registry>
   <node concept="2S6QgY" id="3IEtu39n7MQ">
@@ -2668,6 +2672,69 @@
                   </node>
                   <node concept="2ViDtV" id="hiAtYzG7uM" role="2OqNvi">
                     <ref role="2ViDtZ" to="ldom:51uBUXkxYh7" resolve="kompozicija" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="hiAtYzXnS5">
+    <property role="TrG5h" value="intention_add_inheritance" />
+    <ref role="2ZfgGC" to="ldom:TgpFD_pybX" resolve="Klasa" />
+    <node concept="2S6ZIM" id="hiAtYzXnS6" role="2ZfVej">
+      <node concept="3clFbS" id="hiAtYzXnS7" role="2VODD2">
+        <node concept="3clFbF" id="hiAtYzXo00" role="3cqZAp">
+          <node concept="Xl_RD" id="hiAtYzXnZZ" role="3clFbG">
+            <property role="Xl_RC" value="Dodaj nasledjivanje" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="hiAtYzXnS8" role="2ZfgGD">
+      <node concept="3clFbS" id="hiAtYzXnS9" role="2VODD2">
+        <node concept="3J1_TO" id="hiAtYzXpum" role="3cqZAp">
+          <node concept="3uVAMA" id="hiAtYzXvt1" role="1zxBo5">
+            <node concept="XOnhg" id="hiAtYzXvt2" role="1zc67B">
+              <property role="TrG5h" value="ex" />
+              <node concept="nSUau" id="hiAtYzXvt3" role="1tU5fm">
+                <node concept="3uibUv" id="hiAtYzXvwX" role="nSUat">
+                  <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="hiAtYzXvt4" role="1zc67A" />
+          </node>
+          <node concept="3clFbS" id="hiAtYzXpun" role="1zxBo7">
+            <node concept="3clFbF" id="hiAtYzXpxS" role="3cqZAp">
+              <node concept="37vLTI" id="hiAtYzXqsk" role="3clFbG">
+                <node concept="1y4W85" id="hiAtYzXuzt" role="37vLTx">
+                  <node concept="3cmrfG" id="hiAtYzXuzT" role="1y58nS">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="hiAtYzXrqz" role="1y566C">
+                    <node concept="1eOMI4" id="hiAtYzXr6y" role="2Oq$k0">
+                      <node concept="10QFUN" id="hiAtYzXr6v" role="1eOMHV">
+                        <node concept="3Tqbb2" id="hiAtYzXrbX" role="10QFUM">
+                          <ref role="ehGHo" to="ldom:51uBUXkxYAm" resolve="Dijagram" />
+                        </node>
+                        <node concept="2OqwBi" id="hiAtYzXqDx" role="10QFUP">
+                          <node concept="2Sf5sV" id="hiAtYzXqv6" role="2Oq$k0" />
+                          <node concept="1mfA1w" id="hiAtYzXr44" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="hiAtYzXrMr" role="2OqNvi">
+                      <ref role="3TtcxE" to="ldom:51uBUXkxYAo" resolve="klase" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="hiAtYzXpG6" role="37vLTJ">
+                  <node concept="2Sf5sV" id="hiAtYzXpxR" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="hiAtYzXq3e" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ldom:51uBUXkyWy_" resolve="extendsClass" />
                   </node>
                 </node>
               </node>

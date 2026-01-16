@@ -13,15 +13,15 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="8,0,60,0" name="ClassDiagramDSLMilosProrocic.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,64,0" name="ClassDiagramDSLMilosProrocic.typesystem.TypesystemDescriptor" />
     </file>
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/2465447832824476400">
     <file name="TypesystemDescriptor.java">
-      <node id="2465447832824476400" at="42,5,43,99" concept="6" />
-      <node id="2465447832824476400" at="43,99,44,55" concept="2" />
-      <node id="2465447832824476400" at="41,5,45,5" concept="0" />
-      <scope id="2465447832824476400" at="42,5,44,55">
+      <node id="2465447832824476400" at="46,5,47,99" concept="6" />
+      <node id="2465447832824476400" at="47,99,48,55" concept="2" />
+      <node id="2465447832824476400" at="45,5,49,5" concept="0" />
+      <scope id="2465447832824476400" at="46,5,48,55">
         <var name="nonTypesystemRule" id="2465447832824476400" />
       </scope>
     </file>
@@ -79,10 +79,10 @@
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/2465447832824982661">
     <file name="TypesystemDescriptor.java">
-      <node id="2465447832824982661" at="46,5,47,95" concept="6" />
-      <node id="2465447832824982661" at="47,95,48,55" concept="2" />
-      <node id="2465447832824982661" at="45,5,49,5" concept="0" />
-      <scope id="2465447832824982661" at="46,5,48,55">
+      <node id="2465447832824982661" at="50,5,51,95" concept="6" />
+      <node id="2465447832824982661" at="51,95,52,55" concept="2" />
+      <node id="2465447832824982661" at="49,5,53,5" concept="0" />
+      <scope id="2465447832824982661" at="50,5,52,55">
         <var name="nonTypesystemRule" id="2465447832824982661" />
       </scope>
     </file>
@@ -139,10 +139,10 @@
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/2465447832825143341">
     <file name="TypesystemDescriptor.java">
-      <node id="2465447832825143341" at="38,5,39,101" concept="6" />
-      <node id="2465447832825143341" at="39,101,40,55" concept="2" />
-      <node id="2465447832825143341" at="37,5,41,5" concept="0" />
-      <scope id="2465447832825143341" at="38,5,40,55">
+      <node id="2465447832825143341" at="42,5,43,101" concept="6" />
+      <node id="2465447832825143341" at="43,101,44,55" concept="2" />
+      <node id="2465447832825143341" at="41,5,45,5" concept="0" />
+      <scope id="2465447832825143341" at="42,5,44,55">
         <var name="nonTypesystemRule" id="2465447832825143341" />
       </scope>
     </file>
@@ -199,10 +199,10 @@
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/2465447832825949168">
     <file name="TypesystemDescriptor.java">
-      <node id="2465447832825949168" at="50,5,51,101" concept="6" />
-      <node id="2465447832825949168" at="51,101,52,55" concept="2" />
-      <node id="2465447832825949168" at="49,5,53,5" concept="0" />
-      <scope id="2465447832825949168" at="50,5,52,55">
+      <node id="2465447832825949168" at="54,5,55,101" concept="6" />
+      <node id="2465447832825949168" at="55,101,56,55" concept="2" />
+      <node id="2465447832825949168" at="53,5,57,5" concept="0" />
+      <scope id="2465447832825949168" at="54,5,56,55">
         <var name="nonTypesystemRule" id="2465447832825949168" />
       </scope>
     </file>
@@ -282,10 +282,10 @@
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/311480510043943093">
     <file name="TypesystemDescriptor.java">
-      <node id="311480510043943093" at="54,5,55,106" concept="6" />
-      <node id="311480510043943093" at="55,106,56,55" concept="2" />
-      <node id="311480510043943093" at="53,5,57,5" concept="0" />
-      <scope id="311480510043943093" at="54,5,56,55">
+      <node id="311480510043943093" at="58,5,59,106" concept="6" />
+      <node id="311480510043943093" at="59,106,60,55" concept="2" />
+      <node id="311480510043943093" at="57,5,61,5" concept="0" />
+      <scope id="311480510043943093" at="58,5,60,55">
         <var name="nonTypesystemRule" id="311480510043943093" />
       </scope>
     </file>
@@ -416,6 +416,85 @@
       <unit id="311480510047622523" at="74,0,77,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_exists_in_Dijagram_Klasa_NonTypesystemRule$CONCEPTS" />
       <unit id="311480510047622523" at="64,0,69,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_exists_in_Dijagram_Klasa_NonTypesystemRule$PROPS" />
       <unit id="311480510047622523" at="23,0,78,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_exists_in_Dijagram_Klasa_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/311480510049898729">
+    <file name="TypesystemDescriptor.java">
+      <node id="311480510049898729" at="34,5,35,106" concept="6" />
+      <node id="311480510049898729" at="35,106,36,55" concept="2" />
+      <node id="311480510049898729" at="33,5,37,5" concept="0" />
+      <scope id="311480510049898729" at="34,5,36,55">
+        <var name="nonTypesystemRule" id="311480510049898729" />
+      </scope>
+    </file>
+    <file name="check_nasledjena_Klasa_exists_NonTypesystemRule.java">
+      <node id="311480510049899166" at="27,114,28,62" concept="6" />
+      <node id="311480510049898896" at="28,62,29,32" concept="6" />
+      <node id="311480510049898928" at="29,32,30,0" concept="8" />
+      <node id="311480510049923437" at="32,190,33,27" concept="2" />
+      <node id="311480510049925239" at="35,5,36,0" concept="8" />
+      <node id="311480510052471677" at="39,9,40,68" concept="6" />
+      <node id="311480510052471677" at="40,68,41,252" concept="6" />
+      <node id="311480510052478381" at="44,9,45,68" concept="6" />
+      <node id="311480510052478381" at="45,68,46,239" concept="6" />
+      <node id="311480510049898729" at="51,50,52,29" concept="7" />
+      <node id="311480510049898729" at="54,68,55,102" concept="7" />
+      <node id="311480510049898729" at="57,30,58,17" concept="7" />
+      <node id="311480510049898729" at="62,0,63,0" concept="9" trace="name$MnvL" />
+      <node id="311480510049898729" at="66,0,67,0" concept="9" trace="extendsClass$DLcM" />
+      <node id="311480510049898729" at="67,0,68,0" concept="9" trace="klase$5dLc" />
+      <node id="311480510049898729" at="71,0,72,0" concept="9" trace="Klasa$E8" />
+      <node id="311480510049898729" at="25,0,27,0" concept="1" trace="check_nasledjena_Klasa_exists_NonTypesystemRule#()V" />
+      <node id="311480510049903700" at="31,108,34,7" concept="4" />
+      <node id="311480510049898729" at="51,0,54,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="311480510049898729" at="54,0,57,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="311480510049898729" at="57,0,60,0" concept="5" trace="overrides#()Z" />
+      <node id="311480510052471677" at="38,172,42,9" concept="0" />
+      <node id="311480510052478381" at="43,14,47,9" concept="0" />
+      <node id="311480510049898995" at="30,0,35,5" concept="3" />
+      <node id="311480510052477995" at="43,12,48,7" concept="0" />
+      <node id="311480510052456899" at="37,90,48,7" concept="4" />
+      <node id="311480510049925281" at="36,0,49,5" concept="4" />
+      <node id="311480510049898729" at="27,0,51,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="311480510049898729" at="25,60,25,60" />
+      <scope id="311480510049903702" at="32,190,33,27" />
+      <scope id="311480510049898729" at="51,50,52,29" />
+      <scope id="311480510049898729" at="54,68,55,102" />
+      <scope id="311480510049898729" at="57,30,58,17" />
+      <scope id="311480510049898729" at="25,0,27,0" />
+      <scope id="311480510052471677" at="39,9,41,252">
+        <var name="_reporter_2309309498" id="311480510052471677" />
+        <var name="errorTarget" id="311480510052471677" />
+      </scope>
+      <scope id="311480510052478381" at="44,9,46,239">
+        <var name="_reporter_2309309498" id="311480510052478381" />
+        <var name="errorTarget" id="311480510052478381" />
+      </scope>
+      <scope id="311480510049899001" at="31,108,34,7" />
+      <scope id="311480510049898729" at="51,0,54,0" />
+      <scope id="311480510049898729" at="54,0,57,0">
+        <var name="argument" id="311480510049898729" />
+      </scope>
+      <scope id="311480510049898729" at="57,0,60,0" />
+      <scope id="311480510052456901" at="38,172,42,9" />
+      <scope id="311480510052477996" at="43,14,47,9" />
+      <scope id="311480510049898995" at="30,0,35,5">
+        <var name="klasa" id="311480510049898997" />
+      </scope>
+      <scope id="311480510049925283" at="37,90,48,7" />
+      <scope id="311480510049898730" at="27,114,49,5">
+        <var name="klasaExists" id="311480510049898899" />
+        <var name="nodeDijagram" id="311480510049899169" />
+      </scope>
+      <scope id="311480510049898729" at="27,0,51,0">
+        <var name="k" id="311480510049898729" />
+        <var name="status" id="311480510049898729" />
+        <var name="typeCheckingContext" id="311480510049898729" />
+      </scope>
+      <unit id="311480510049898729" at="61,0,64,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_nasledjena_Klasa_exists_NonTypesystemRule$PROPS" />
+      <unit id="311480510049898729" at="70,0,73,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_nasledjena_Klasa_exists_NonTypesystemRule$CONCEPTS" />
+      <unit id="311480510049898729" at="65,0,69,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_nasledjena_Klasa_exists_NonTypesystemRule$LINKS" />
+      <unit id="311480510049898729" at="24,0,74,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_nasledjena_Klasa_exists_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/4299378402589728291">
@@ -716,10 +795,10 @@
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/4299378402591558137">
     <file name="TypesystemDescriptor.java">
-      <node id="4299378402591558137" at="34,5,35,97" concept="6" />
-      <node id="4299378402591558137" at="35,97,36,55" concept="2" />
-      <node id="4299378402591558137" at="33,5,37,5" concept="0" />
-      <scope id="4299378402591558137" at="34,5,36,55">
+      <node id="4299378402591558137" at="38,5,39,97" concept="6" />
+      <node id="4299378402591558137" at="39,97,40,55" concept="2" />
+      <node id="4299378402591558137" at="37,5,41,5" concept="0" />
+      <scope id="4299378402591558137" at="38,5,40,55">
         <var name="nonTypesystemRule" id="4299378402591558137" />
       </scope>
     </file>

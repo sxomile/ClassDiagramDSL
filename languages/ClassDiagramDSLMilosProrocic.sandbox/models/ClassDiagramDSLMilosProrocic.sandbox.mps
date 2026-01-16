@@ -33,6 +33,7 @@
         <child id="5791241746231379596" name="kardinalnostLevo" index="4P_$z" />
       </concept>
       <concept id="1031437265418986237" name="ClassDiagramDSLMilosProrocic.structure.Klasa" flags="ng" index="1Fd$h7">
+        <reference id="5791241746231576741" name="extendsClass" index="4Plsa" />
         <child id="5791241746231321659" name="atributi" index="4QnIk" />
       </concept>
     </language>
@@ -93,6 +94,7 @@
     </node>
     <node concept="1Fd$h7" id="51uBUXk$JX$" role="4QnoR">
       <property role="TrG5h" value="klasa1" />
+      <ref role="4Plsa" node="hiAtYzODZF" resolve="klasa4" />
       <node concept="1Fdp5F" id="3IEtu39n1Vb" role="4QnIk">
         <property role="TrG5h" value="id" />
         <property role="3MWlHh" value="integer" />

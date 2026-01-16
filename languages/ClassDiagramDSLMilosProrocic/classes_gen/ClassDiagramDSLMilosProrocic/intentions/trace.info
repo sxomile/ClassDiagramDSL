@@ -14,13 +14,13 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="18,0,118,0" name="ClassDiagramDSLMilosProrocic.intentions.IntentionsDescriptor" />
+      <unit at="18,0,120,0" name="ClassDiagramDSLMilosProrocic.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760598678060">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760598678060" at="40,77,41,77" concept="1" />
-      <node id="1517646760598678060" at="105,63,106,63" concept="1" />
+      <node id="1517646760598678060" at="106,63,107,63" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_integer_Intention.java">
       <node id="1517646760598678060" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -130,7 +130,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760598705832">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760598705832" at="41,77,42,74" concept="1" />
-      <node id="1517646760598705832" at="106,63,107,61" concept="1" />
+      <node id="1517646760598705832" at="107,63,108,61" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_real_Intention.java">
       <node id="1517646760598705832" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -240,7 +240,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760598733250">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760598733250" at="42,74,43,79" concept="1" />
-      <node id="1517646760598733250" at="107,61,108,66" concept="1" />
+      <node id="1517646760598733250" at="108,61,109,66" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_undefined_Intention.java">
       <node id="1517646760598733250" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -350,7 +350,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760598764239">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760598764239" at="43,79,44,74" concept="1" />
-      <node id="1517646760598764239" at="108,66,109,61" concept="1" />
+      <node id="1517646760598764239" at="109,66,110,61" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_date_Intention.java">
       <node id="1517646760598764239" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -459,7 +459,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760599000008">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760599000008" at="44,74,45,84" concept="1" />
-      <node id="1517646760599000008" at="109,61,110,71" concept="1" />
+      <node id="1517646760599000008" at="110,61,111,71" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_datetime_error_Intention.java">
       <node id="1517646760599000008" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -568,7 +568,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760599062239">
     <file name="IntentionsDescriptor.java">
       <node id="1517646760599062239" at="45,84,46,77" concept="1" />
-      <node id="1517646760599062239" at="110,71,111,64" concept="1" />
+      <node id="1517646760599062239" at="111,71,112,64" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_warning_Intention.java">
       <node id="1517646760599062239" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -678,7 +678,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832825485677">
     <file name="IntentionsDescriptor.java">
       <node id="2465447832825485677" at="60,73,61,76" concept="1" />
-      <node id="2465447832825485677" at="100,60,101,62" concept="1" />
+      <node id="2465447832825485677" at="101,60,102,62" concept="1" />
     </file>
     <file name="intention_generate_Interface_name_Intention.java">
       <node id="2465447832825485677" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
@@ -741,7 +741,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832825516963">
     <file name="IntentionsDescriptor.java">
       <node id="2465447832825516963" at="52,47,53,78" concept="1" />
-      <node id="2465447832825516963" at="101,62,102,64" concept="1" />
+      <node id="2465447832825516963" at="102,62,103,64" concept="1" />
     </file>
     <file name="intention_generate_Enumeracija_name_Intention.java">
       <node id="2465447832825516963" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
@@ -804,7 +804,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832825539827">
     <file name="IntentionsDescriptor.java">
       <node id="2465447832825539827" at="75,47,76,72" concept="1" />
-      <node id="2465447832825539827" at="102,64,103,58" concept="1" />
+      <node id="2465447832825539827" at="103,64,104,58" concept="1" />
     </file>
     <file name="intention_generate_Klasa_name_Intention.java">
       <node id="2465447832825539827" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
@@ -867,7 +867,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832826542597">
     <file name="IntentionsDescriptor.java">
       <node id="2465447832826542597" at="38,74,39,76" concept="1" />
-      <node id="2465447832826542597" at="103,58,104,62" concept="1" />
+      <node id="2465447832826542597" at="104,58,105,62" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_string_Intention.java">
       <node id="2465447832826542597" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -977,7 +977,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832826710469">
     <file name="IntentionsDescriptor.java">
       <node id="2465447832826710469" at="39,76,40,77" concept="1" />
-      <node id="2465447832826710469" at="104,62,105,63" concept="1" />
+      <node id="2465447832826710469" at="105,62,106,63" concept="1" />
     </file>
     <file name="intention_set_Atribut_type_boolean_Intention.java">
       <node id="2465447832826710469" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
@@ -1085,8 +1085,8 @@
   </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/311480510044796917">
     <file name="IntentionsDescriptor.java">
-      <node id="311480510044796917" at="82,47,83,78" concept="1" />
-      <node id="311480510044796917" at="111,64,112,65" concept="1" />
+      <node id="311480510044796917" at="83,47,84,78" concept="1" />
+      <node id="311480510044796917" at="112,64,113,65" concept="1" />
     </file>
     <file name="intention_set_Kardinalnost_Veze_0_1_Intention.java">
       <node id="311480510044796917" at="24,0,25,0" concept="2" trace="myCachedExecutable" />
@@ -1164,8 +1164,8 @@
   </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/311480510044990914">
     <file name="IntentionsDescriptor.java">
-      <node id="311480510044990914" at="83,78,84,76" concept="1" />
-      <node id="311480510044990914" at="112,65,113,63" concept="1" />
+      <node id="311480510044990914" at="84,78,85,76" concept="1" />
+      <node id="311480510044990914" at="113,65,114,63" concept="1" />
     </file>
     <file name="intention_set_Kardinalnost_Veze_1_Intention.java">
       <node id="311480510044990914" at="24,0,25,0" concept="2" trace="myCachedExecutable" />
@@ -1240,10 +1240,80 @@
       <unit id="311480510044990914" at="23,0,91,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Kardinalnost_Veze_1_Intention" />
     </file>
   </root>
+  <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/311480510049517061">
+    <file name="IntentionsDescriptor.java">
+      <node id="311480510049517061" at="76,72,77,68" concept="1" />
+      <node id="311480510049517061" at="114,63,115,55" concept="1" />
+    </file>
+    <file name="intention_add_inheritance_Intention.java">
+      <node id="311480510049517061" at="24,0,25,0" concept="2" trace="myCachedExecutable" />
+      <node id="311480510049517061" at="26,48,27,153" concept="10" />
+      <node id="311480510049517061" at="31,35,32,39" concept="7" />
+      <node id="311480510049517061" at="36,35,37,17" concept="7" />
+      <node id="311480510049517061" at="41,37,42,105" concept="1" />
+      <node id="311480510049517061" at="43,5,44,30" concept="7" />
+      <node id="311480510049517568" at="51,87,52,35" concept="7" />
+      <node id="311480510049523832" at="57,11,58,192" concept="1" />
+      <node id="311480510049517061" at="64,86,65,18" concept="7" />
+      <node id="311480510049517061" at="71,48,72,54" concept="7" />
+      <node id="311480510049517061" at="78,0,79,0" concept="9" trace="extendsClass$DLcM" />
+      <node id="311480510049517061" at="79,0,80,0" concept="9" trace="klase$5dLc" />
+      <node id="311480510049517061" at="47,0,49,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="311480510049517061" at="26,0,29,0" concept="0" trace="intention_add_inheritance_Intention#()V" />
+      <node id="311480510049517061" at="40,99,43,5" concept="4" />
+      <node id="311480510049517061" at="30,0,34,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="311480510049517061" at="35,0,39,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="311480510049517061" at="50,0,54,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="311480510049523606" at="56,78,60,7" concept="11" />
+      <node id="311480510049517061" at="63,0,67,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="311480510049517061" at="70,0,74,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="311480510049517061" at="40,0,46,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="311480510049517061" at="55,0,62,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <scope id="311480510049517061" at="47,38,47,38" />
+      <scope id="311480510049548100" at="59,30,59,30" />
+      <scope id="311480510049517061" at="26,48,27,153" />
+      <scope id="311480510049517061" at="31,35,32,39" />
+      <scope id="311480510049517061" at="36,35,37,17" />
+      <scope id="311480510049517061" at="41,37,42,105" />
+      <scope id="311480510049517063" at="51,87,52,35" />
+      <scope id="311480510049523607" at="57,11,58,192" />
+      <scope id="311480510049548097" at="59,7,60,7">
+        <var name="ex" id="311480510049548098" />
+      </scope>
+      <scope id="311480510049517061" at="64,86,65,18" />
+      <scope id="311480510049517061" at="71,48,72,54" />
+      <scope id="311480510049517061" at="47,0,49,0" />
+      <scope id="311480510049517061" at="26,0,29,0" />
+      <scope id="311480510049517061" at="30,0,34,0" />
+      <scope id="311480510049517061" at="35,0,39,0" />
+      <scope id="311480510049517061" at="40,99,44,30" />
+      <scope id="311480510049517061" at="50,0,54,0">
+        <var name="editorContext" id="311480510049517061" />
+        <var name="node" id="311480510049517061" />
+      </scope>
+      <scope id="311480510049517065" at="56,78,60,7" />
+      <scope id="311480510049517061" at="63,0,67,0">
+        <var name="editorContext" id="311480510049517061" />
+        <var name="node" id="311480510049517061" />
+      </scope>
+      <scope id="311480510049517061" at="70,0,74,0" />
+      <scope id="311480510049517061" at="40,0,46,0">
+        <var name="context" id="311480510049517061" />
+        <var name="node" id="311480510049517061" />
+      </scope>
+      <scope id="311480510049517061" at="55,0,62,0">
+        <var name="editorContext" id="311480510049517061" />
+        <var name="node" id="311480510049517061" />
+      </scope>
+      <unit id="311480510049517061" at="77,0,81,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_add_inheritance_Intention$LINKS" />
+      <unit id="311480510049517061" at="46,0,76,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_add_inheritance_Intention$IntentionImplementation" />
+      <unit id="311480510049517061" at="23,0,82,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_add_inheritance_Intention" />
+    </file>
+  </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/4299378402589965494">
     <file name="IntentionsDescriptor.java">
       <node id="4299378402589965494" at="59,47,60,73" concept="1" />
-      <node id="4299378402589965494" at="96,53,97,59" concept="1" />
+      <node id="4299378402589965494" at="97,53,98,59" concept="1" />
     </file>
     <file name="intention_add_Interface_prefix_Intention.java">
       <node id="4299378402589965494" at="22,0,23,0" concept="2" trace="myCachedExecutable" />
@@ -1306,7 +1376,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/4299378402590803774">
     <file name="IntentionsDescriptor.java">
       <node id="4299378402590803774" at="67,47,68,77" concept="1" />
-      <node id="4299378402590803774" at="97,59,98,63" concept="1" />
+      <node id="4299378402590803774" at="98,59,99,63" concept="1" />
     </file>
     <file name="intention_set_Kardinalnost_asterix_Intention.java">
       <node id="4299378402590803774" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
@@ -1369,7 +1439,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/4299378402590955750">
     <file name="IntentionsDescriptor.java">
       <node id="4299378402590955750" at="68,77,69,75" concept="1" />
-      <node id="4299378402590955750" at="98,63,99,61" concept="1" />
+      <node id="4299378402590955750" at="99,63,100,61" concept="1" />
     </file>
     <file name="intention_set_Kardinalnost_order_Intention.java">
       <node id="4299378402590955750" at="21,0,22,0" concept="2" trace="myCachedExecutable" />
@@ -1445,7 +1515,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/4299378402591733246">
     <file name="IntentionsDescriptor.java">
       <node id="4299378402591733246" at="37,47,38,74" concept="1" />
-      <node id="4299378402591733246" at="99,61,100,60" concept="1" />
+      <node id="4299378402591733246" at="100,61,101,60" concept="1" />
     </file>
     <file name="intention_generate_Atribut_name_Intention.java">
       <node id="4299378402591733246" at="23,0,24,0" concept="2" trace="myCachedExecutable" />
