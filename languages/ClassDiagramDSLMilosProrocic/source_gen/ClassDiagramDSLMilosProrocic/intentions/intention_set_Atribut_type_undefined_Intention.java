@@ -13,9 +13,13 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import java.util.Collections;
 import jetbrains.mps.intentions.AbstractIntentionExecutable;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.openapi.intentions.IntentionDescriptor;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public final class intention_set_Atribut_type_undefined_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
@@ -63,6 +67,27 @@ public final class intention_set_Atribut_type_undefined_Intention extends Abstra
     }
 
     private boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
+      SNode nodeDijagram = (SNode) SNodeOperations.getParent(SNodeOperations.getParent(node));
+
+      for (SNode e : ListSequence.fromList(SLinkOperations.getChildren(nodeDijagram, LINKS.enumeracije$oHuo))) {
+        if (SPropertyOperations.getString(e, PROPS.name$MnvL) == SPropertyOperations.getString(node, PROPS.tipAtributa$Len0)) {
+          return false;
+        }
+      }
+
+      for (SNode k : ListSequence.fromList(SLinkOperations.getChildren(nodeDijagram, LINKS.klase$5dLc))) {
+        if (SPropertyOperations.getString(k, PROPS.name$MnvL) == SPropertyOperations.getString(node, PROPS.tipAtributa$Len0)) {
+          return false;
+        }
+      }
+
+      for (SNode i : ListSequence.fromList(SLinkOperations.getChildren(nodeDijagram, LINKS.interfejsi$5e0d))) {
+        if (SPropertyOperations.getString(i, PROPS.name$MnvL) == SPropertyOperations.getString(node, PROPS.tipAtributa$Len0)) {
+          return false;
+        }
+      }
+
+
       return SPropertyOperations.getString(node, PROPS.tipAtributa$Len0) == null || ("undefined".contains(SPropertyOperations.getString(node, PROPS.tipAtributa$Len0)) && !(SPropertyOperations.getString(node, PROPS.tipAtributa$Len0).equals("undefined")));
     }
 
@@ -76,5 +101,12 @@ public final class intention_set_Atribut_type_undefined_Intention extends Abstra
 
   private static final class PROPS {
     /*package*/ static final SProperty tipAtributa$Len0 = MetaAdapterFactory.getProperty(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L, 0x3baa75e0c95b2eb1L, "tipAtributa");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink enumeracije$oHuo = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5490ab52L, "enumeracije");
+    /*package*/ static final SContainmentLink klase$5dLc = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e998L, "klase");
+    /*package*/ static final SContainmentLink interfejsi$5e0d = MetaAdapterFactory.getContainmentLink(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x505e9faf5487e996L, 0x505e9faf5487e999L, "interfejsi");
   }
 }
