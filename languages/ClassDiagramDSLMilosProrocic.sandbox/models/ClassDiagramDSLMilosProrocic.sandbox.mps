@@ -44,19 +44,6 @@
   </registry>
   <node concept="4QnoT" id="51uBUXk$JXx">
     <property role="TrG5h" value="dijagram1" />
-    <node concept="1Fd$h5" id="51uBUXk_NSM" role="4QnoP">
-      <property role="4MLT3" value="klasa1" />
-      <property role="4Qn0W" value="51uBUXkxYh7/kompozicija" />
-      <property role="4MLT2" value="klasa2" />
-      <node concept="4Qn0x" id="51uBUXk_NSN" role="4P_$z">
-        <property role="4QmAF" value="3" />
-        <property role="4QmAE" value="*" />
-      </node>
-      <node concept="4Qn0x" id="51uBUXk_NSO" role="4P_$y">
-        <property role="4QmAF" value="0" />
-        <property role="4QmAE" value="*" />
-      </node>
-    </node>
     <node concept="1Fd$h5" id="51uBUXkAITQ" role="4QnoP">
       <property role="4MLT3" value="klasa1" />
       <property role="4Qn0W" value="51uBUXkxYgZ/agregacija" />
@@ -68,6 +55,19 @@
       <node concept="4Qn0x" id="51uBUXkAITS" role="4P_$y">
         <property role="4QmAF" value="0" />
         <property role="4QmAE" value="*" />
+      </node>
+    </node>
+    <node concept="1Fd$h5" id="hiAtYzEBkW" role="4QnoP">
+      <property role="4MLT3" value="klasa1" />
+      <property role="4Qn0W" value="51uBUXkxYh7/kompozicija" />
+      <property role="4MLT2" value="klasa1" />
+      <node concept="4Qn0x" id="hiAtYzEBkX" role="4P_$z">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="1" />
+      </node>
+      <node concept="4Qn0x" id="hiAtYzEBkY" role="4P_$y">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="6" />
       </node>
     </node>
     <node concept="1FdpCw" id="51uBUXk$JXC" role="4NzjX">
@@ -103,11 +103,11 @@
       </node>
       <node concept="1Fdp5F" id="1kfKV0s2RTf" role="4QnIk">
         <property role="TrG5h" value="Atribut_3" />
-        <property role="3MWlHh" value="dat" />
+        <property role="3MWlHh" value="Dat" />
       </node>
     </node>
     <node concept="1Fd$h7" id="3IEtu39n1Vc" role="4QnoR">
-      <property role="TrG5h" value="dat" />
+      <property role="TrG5h" value="Dat" />
       <node concept="1Fdp5F" id="3IEtu39n1Vd" role="4QnIk">
         <property role="TrG5h" value="id" />
         <property role="3MWlHh" value="integer" />

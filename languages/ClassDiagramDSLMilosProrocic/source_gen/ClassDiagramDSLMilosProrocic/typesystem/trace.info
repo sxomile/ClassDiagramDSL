@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="8,0,52,0" name="ClassDiagramDSLMilosProrocic.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,56,0" name="ClassDiagramDSLMilosProrocic.typesystem.TypesystemDescriptor" />
     </file>
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/2465447832824476400">
@@ -278,6 +278,60 @@
       <unit id="2465447832825949168" at="63,0,67,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Atribut_type_NonTypesystemRule$PROPS" />
       <unit id="2465447832825949168" at="68,0,73,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Atribut_type_NonTypesystemRule$LINKS" />
       <unit id="2465447832825949168" at="26,0,78,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Atribut_type_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/311480510043943093">
+    <file name="TypesystemDescriptor.java">
+      <node id="311480510043943093" at="50,5,51,106" concept="6" />
+      <node id="311480510043943093" at="51,106,52,55" concept="2" />
+      <node id="311480510043943093" at="49,5,53,5" concept="0" />
+      <scope id="311480510043943093" at="50,5,52,55">
+        <var name="nonTypesystemRule" id="311480510043943093" />
+      </scope>
+    </file>
+    <file name="check_valid_Kardinalnost_Veza_NonTypesystemRule.java">
+      <node id="311480510044090851" at="27,7,28,66" concept="6" />
+      <node id="311480510044090851" at="28,66,29,276" concept="6" />
+      <node id="311480510043943093" at="33,50,34,28" concept="7" />
+      <node id="311480510043943093" at="36,68,37,102" concept="7" />
+      <node id="311480510043943093" at="39,30,40,17" concept="7" />
+      <node id="311480510043943093" at="44,0,45,0" concept="9" trace="TipVeze$Sa5H" />
+      <node id="311480510043943093" at="45,0,46,0" concept="9" trace="gornjaVrednost$nLo4" />
+      <node id="311480510043943093" at="46,0,47,0" concept="9" trace="donjaVrednost$nL93" />
+      <node id="311480510043943093" at="50,0,51,0" concept="9" trace="kardinalnostLevo$UmOH" />
+      <node id="311480510043943093" at="54,0,55,0" concept="9" trace="Veza$F6" />
+      <node id="311480510043943093" at="23,0,25,0" concept="1" trace="check_valid_Kardinalnost_Veza_NonTypesystemRule#()V" />
+      <node id="311480510043943093" at="33,0,36,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="311480510043943093" at="36,0,39,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="311480510043943093" at="39,0,42,0" concept="5" trace="overrides#()Z" />
+      <node id="311480510044090851" at="26,938,30,7" concept="0" />
+      <node id="311480510043972980" at="25,114,31,5" concept="4" />
+      <node id="311480510043943093" at="25,0,33,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="311480510043943093" at="23,60,23,60" />
+      <scope id="311480510043943093" at="33,50,34,28" />
+      <scope id="311480510043943093" at="36,68,37,102" />
+      <scope id="311480510043943093" at="39,30,40,17" />
+      <scope id="311480510043943093" at="23,0,25,0" />
+      <scope id="311480510044090851" at="27,7,29,276">
+        <var name="_reporter_2309309498" id="311480510044090851" />
+        <var name="errorTarget" id="311480510044090851" />
+      </scope>
+      <scope id="311480510043943093" at="33,0,36,0" />
+      <scope id="311480510043943093" at="36,0,39,0">
+        <var name="argument" id="311480510043943093" />
+      </scope>
+      <scope id="311480510043943093" at="39,0,42,0" />
+      <scope id="311480510043972982" at="26,938,30,7" />
+      <scope id="311480510043943094" at="25,114,31,5" />
+      <scope id="311480510043943093" at="25,0,33,0">
+        <var name="status" id="311480510043943093" />
+        <var name="typeCheckingContext" id="311480510043943093" />
+        <var name="v" id="311480510043943093" />
+      </scope>
+      <unit id="311480510043943093" at="49,0,52,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Kardinalnost_Veza_NonTypesystemRule$LINKS" />
+      <unit id="311480510043943093" at="53,0,56,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Kardinalnost_Veza_NonTypesystemRule$CONCEPTS" />
+      <unit id="311480510043943093" at="43,0,48,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Kardinalnost_Veza_NonTypesystemRule$PROPS" />
+      <unit id="311480510043943093" at="22,0,57,0" name="ClassDiagramDSLMilosProrocic.typesystem.check_valid_Kardinalnost_Veza_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="r:95ae1a9f-1c78-45b3-9bb4-910a7de66c17(ClassDiagramDSLMilosProrocic.typesystem)/4299378402589728291">
