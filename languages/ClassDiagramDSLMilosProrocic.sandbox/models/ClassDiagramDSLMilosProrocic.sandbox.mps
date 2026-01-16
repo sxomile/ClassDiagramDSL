@@ -47,7 +47,7 @@
     <node concept="1Fd$h5" id="51uBUXkAITQ" role="4QnoP">
       <property role="4MLT3" value="klasa4" />
       <property role="4Qn0W" value="51uBUXkxYgZ/agregacija" />
-      <property role="4MLT2" value="tralala" />
+      <property role="4MLT2" value="Dat" />
       <node concept="4Qn0x" id="51uBUXkAITR" role="4P_$z">
         <property role="4QmAF" value="5" />
         <property role="4QmAE" value="9" />
@@ -92,7 +92,7 @@
       <property role="TrG5h" value="IAction" />
     </node>
     <node concept="1Fd$h7" id="51uBUXk$JX$" role="4QnoR">
-      <property role="TrG5h" value="st" />
+      <property role="TrG5h" value="klasa1" />
       <node concept="1Fdp5F" id="3IEtu39n1Vb" role="4QnIk">
         <property role="TrG5h" value="id" />
         <property role="3MWlHh" value="integer" />
@@ -118,11 +118,11 @@
       </node>
       <node concept="1Fdp5F" id="3IEtu39smFT" role="4QnIk">
         <property role="TrG5h" value="a1" />
-        <property role="3MWlHh" value="st" />
+        <property role="3MWlHh" value="string" />
       </node>
     </node>
     <node concept="1Fd$h7" id="hiAtYzODZF" role="4QnoR">
-      <property role="TrG5h" value="boo" />
+      <property role="TrG5h" value="klasa4" />
       <node concept="1Fdp5F" id="hiAtYzODZG" role="4QnIk">
         <property role="TrG5h" value="Atribut_1" />
         <property role="3MWlHh" value="boolean" />
