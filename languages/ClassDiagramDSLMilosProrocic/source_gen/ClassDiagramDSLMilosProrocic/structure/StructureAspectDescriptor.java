@@ -20,6 +20,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptDijagram = createDescriptorForDijagram();
   /*package*/ final ConceptDescriptor myConceptEnumeracija = createDescriptorForEnumeracija();
   /*package*/ final ConceptDescriptor myConceptEnumeracijaValue = createDescriptorForEnumeracijaValue();
+  /*package*/ final ConceptDescriptor myConceptImplementsInterface = createDescriptorForImplementsInterface();
   /*package*/ final ConceptDescriptor myConceptInterface = createDescriptorForInterface();
   /*package*/ final ConceptDescriptor myConceptKardinalnost = createDescriptorForKardinalnost();
   /*package*/ final ConceptDescriptor myConceptKlasa = createDescriptorForKlasa();
@@ -39,7 +40,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAtribut, myConceptDijagram, myConceptEnumeracija, myConceptEnumeracijaValue, myConceptInterface, myConceptKardinalnost, myConceptKlasa, myConceptVeza);
+    return Arrays.asList(myConceptAtribut, myConceptDijagram, myConceptEnumeracija, myConceptEnumeracijaValue, myConceptImplementsInterface, myConceptInterface, myConceptKardinalnost, myConceptKlasa, myConceptVeza);
   }
 
   @Override
@@ -54,6 +55,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptEnumeracija;
       case LanguageConceptSwitch.EnumeracijaValue:
         return myConceptEnumeracijaValue;
+      case LanguageConceptSwitch.ImplementsInterface:
+        return myConceptImplementsInterface;
       case LanguageConceptSwitch.Interface:
         return myConceptInterface;
       case LanguageConceptSwitch.Kardinalnost:
@@ -114,6 +117,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForImplementsInterface() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "ImplementsInterface", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x3833fda09c149571L);
+    b.class_(false, false, false);
+    b.origin("r:7dadbe6a-db7e-4964-9912-7249092a59c1(ClassDiagramDSLMilosProrocic.structure)/4049859356191397233");
+    b.version(3);
+    b.associate("target", 0x3833fda09c149573L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(false).origin("4049859356191397235").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForInterface() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("ClassDiagramDSLMilosProrocic", "Interface", 0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL);
     b.class_(false, false, false);
@@ -139,7 +150,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.associate("extendsClass", 0x505e9faf548bc8a5L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba656622fdL).optional(true).origin("5791241746231576741").done();
     b.aggregate("atributi", 0x505e9faf5487e43bL).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L).optional(true).ordered(true).multiple(true).origin("5791241746231321659").done();
-    b.aggregate("implementsInterface", 0x505e9faf548bc8a8L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL).optional(true).ordered(true).multiple(true).origin("5791241746231576744").done();
+    b.aggregate("implementsInterface", 0x505e9faf548bc8a8L).target(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x3833fda09c149571L).optional(true).ordered(true).multiple(true).origin("5791241746231576744").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForVeza() {

@@ -18,6 +18,9 @@
         <child id="5791241746231323033" name="interfejsi" index="4QnoQ" />
         <child id="5791241746231323032" name="klase" index="4QnoR" />
       </concept>
+      <concept id="4049859356191397233" name="ClassDiagramDSLMilosProrocic.structure.ImplementsInterface" flags="ng" index="2$9Qzh">
+        <reference id="4049859356191397235" name="target" index="2$9Qzj" />
+      </concept>
       <concept id="1031437265418936156" name="ClassDiagramDSLMilosProrocic.structure.Interface" flags="ng" index="1FdjBA" />
       <concept id="1031437265418975185" name="ClassDiagramDSLMilosProrocic.structure.Atribut" flags="ng" index="1Fdp5F">
         <property id="4299378402589879985" name="tipAtributa" index="3MWlHh" />
@@ -34,6 +37,7 @@
       </concept>
       <concept id="1031437265418986237" name="ClassDiagramDSLMilosProrocic.structure.Klasa" flags="ng" index="1Fd$h7">
         <reference id="5791241746231576741" name="extendsClass" index="4Plsa" />
+        <child id="5791241746231576744" name="implementsInterface" index="4Pls7" />
         <child id="5791241746231321659" name="atributi" index="4QnIk" />
       </concept>
     </language>
@@ -83,33 +87,15 @@
         <property role="TrG5h" value="PUTA" />
       </node>
     </node>
-    <node concept="1FdjBA" id="51uBUXk$JXy" role="4QnoQ">
+    <node concept="1FdjBA" id="3wNZq2s0xR7" role="4QnoQ">
       <property role="TrG5h" value="IEnumerable" />
-    </node>
-    <node concept="1FdjBA" id="51uBUXk$JXz" role="4QnoQ">
-      <property role="TrG5h" value="IOperacije" />
     </node>
     <node concept="1FdjBA" id="3IEtu39mMUa" role="4QnoQ">
       <property role="TrG5h" value="IAction" />
     </node>
-    <node concept="1Fd$h7" id="51uBUXk$JX$" role="4QnoR">
-      <property role="TrG5h" value="klasa1" />
-      <ref role="4Plsa" node="hiAtYzODZF" resolve="klasa4" />
-      <node concept="1Fdp5F" id="3IEtu39n1Vb" role="4QnIk">
-        <property role="TrG5h" value="id" />
-        <property role="3MWlHh" value="integer" />
-      </node>
-      <node concept="1Fdp5F" id="3IEtu39n1Va" role="4QnIk">
-        <property role="TrG5h" value="name" />
-        <property role="3MWlHh" value="string" />
-      </node>
-      <node concept="1Fdp5F" id="1kfKV0s2RTf" role="4QnIk">
-        <property role="TrG5h" value="Atribut_3" />
-        <property role="3MWlHh" value="Dat" />
-      </node>
-    </node>
     <node concept="1Fd$h7" id="3IEtu39n1Vc" role="4QnoR">
       <property role="TrG5h" value="Dat" />
+      <ref role="4Plsa" node="hiAtYzODZF" resolve="klasa4" />
       <node concept="1Fdp5F" id="3IEtu39n1Vd" role="4QnIk">
         <property role="TrG5h" value="id" />
         <property role="3MWlHh" value="integer" />
@@ -122,6 +108,12 @@
         <property role="TrG5h" value="a1" />
         <property role="3MWlHh" value="string" />
       </node>
+      <node concept="2$9Qzh" id="3wNZq2sb_So" role="4Pls7">
+        <ref role="2$9Qzj" node="3wNZq2s0xR7" resolve="IEnumerable" />
+      </node>
+      <node concept="2$9Qzh" id="3wNZq2sb_Sp" role="4Pls7">
+        <ref role="2$9Qzj" node="3IEtu39mMUa" resolve="IAction" />
+      </node>
     </node>
     <node concept="1Fd$h7" id="hiAtYzODZF" role="4QnoR">
       <property role="TrG5h" value="klasa4" />
@@ -129,6 +121,9 @@
         <property role="TrG5h" value="Atribut_1" />
         <property role="3MWlHh" value="boolean" />
       </node>
+    </node>
+    <node concept="1FdjBA" id="51uBUXk$JXz" role="4QnoQ">
+      <property role="TrG5h" value="IOperaci" />
     </node>
   </node>
 </model>

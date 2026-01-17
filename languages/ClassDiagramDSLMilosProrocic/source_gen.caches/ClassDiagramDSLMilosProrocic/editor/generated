@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-6k4zo3u083cv5xbk0795khg82psbe49">
-  <files names="Atribut_Editor.java:Atribut_EditorBuilder_a.java:Dijagram_Editor.java:Dijagram_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:EnumeracijaValue_Editor.java:EnumeracijaValue_EditorBuilder_a.java:Enumeracija_Editor.java:Enumeracija_EditorBuilder_a.java:Interface_Editor.java:Interface_EditorBuilder_a.java:Kardinalnost_Editor.java:Kardinalnost_EditorBuilder_a.java:Klasa_Editor.java:Klasa_EditorBuilder_a.java:Veza_Editor.java:Veza_EditorBuilder_a.java" />
+<product version="3" modelHash="6zg0jppumcpxijcklaqmhcml3r6zfqf">
+  <files names="Atribut_Editor.java:Atribut_EditorBuilder_a.java:Dijagram_Editor.java:Dijagram_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:EnumeracijaValue_Editor.java:EnumeracijaValue_EditorBuilder_a.java:Enumeracija_Editor.java:Enumeracija_EditorBuilder_a.java:ImplementsInterface_Editor.java:ImplementsInterface_EditorBuilder_a.java:ImplementsInterface_SubstituteMenu.java:Interface_Editor.java:Interface_EditorBuilder_a.java:Kardinalnost_Editor.java:Kardinalnost_EditorBuilder_a.java:Klasa_Editor.java:Klasa_EditorBuilder_a.java:Veza_Editor.java:Veza_EditorBuilder_a.java" />
 </product>
 

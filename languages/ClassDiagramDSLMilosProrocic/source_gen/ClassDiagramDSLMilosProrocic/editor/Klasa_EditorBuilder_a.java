@@ -44,6 +44,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SConcept;
 
@@ -272,7 +273,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.implementsInterface$DLTP;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.Interface$9L;
+      return CONCEPTS.ImplementsInterface$Ar;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -318,12 +319,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         if (elementNode != null) {
           elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, OBJ);
+          elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, ","));
         }
       }
     }
     @Override
     public EditorCell createSeparatorCell(SNode prevNode, SNode nextNode) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), getNode(), ", ");
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), getNode(), ",");
       editorCell.setSelectable(false);
       Style style = new StyleImpl();
       style.set(StyleAttributes.LAYOUT_CONSTRAINT, "");
@@ -434,7 +436,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private static final class CONCEPTS {
     /*package*/ static final SConcept PropertyAttribute$Gb = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
     /*package*/ static final SConcept LinkAttribute$v_ = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute");
-    /*package*/ static final SConcept Interface$9L = MetaAdapterFactory.getConcept(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba65655f5cL, "ClassDiagramDSLMilosProrocic.structure.Interface");
+    /*package*/ static final SConcept ImplementsInterface$Ar = MetaAdapterFactory.getConcept(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x3833fda09c149571L, "ClassDiagramDSLMilosProrocic.structure.ImplementsInterface");
     /*package*/ static final SConcept Atribut$yg = MetaAdapterFactory.getConcept(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0xe5066ba6565f7d1L, "ClassDiagramDSLMilosProrocic.structure.Atribut");
   }
 }

@@ -13,10 +13,11 @@ public final class LanguageConceptSwitch {
   public static final int Dijagram = 1;
   public static final int Enumeracija = 2;
   public static final int EnumeracijaValue = 3;
-  public static final int Interface = 4;
-  public static final int Kardinalnost = 5;
-  public static final int Klasa = 6;
-  public static final int Veza = 7;
+  public static final int ImplementsInterface = 4;
+  public static final int Interface = 5;
+  public static final int Kardinalnost = 6;
+  public static final int Klasa = 7;
+  public static final int Veza = 8;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1930d0ecd9194e4cL, 0xb5d876474568c949L);
@@ -24,6 +25,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x505e9faf5487e996L, Dijagram);
     builder.put(0xe5066ba6565fc9aL, Enumeracija);
     builder.put(0x505e9faf54891bbdL, EnumeracijaValue);
+    builder.put(0x3833fda09c149571L, ImplementsInterface);
     builder.put(0xe5066ba65655f5cL, Interface);
     builder.put(0x505e9faf5487ef8eL, Kardinalnost);
     builder.put(0xe5066ba656622fdL, Klasa);

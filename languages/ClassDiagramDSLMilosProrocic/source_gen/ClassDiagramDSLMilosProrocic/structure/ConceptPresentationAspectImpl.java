@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Dijagram;
   private ConceptPresentation props_Enumeracija;
   private ConceptPresentation props_EnumeracijaValue;
+  private ConceptPresentation props_ImplementsInterface;
   private ConceptPresentation props_Interface;
   private ConceptPresentation props_Kardinalnost;
   private ConceptPresentation props_Klasa;
@@ -51,6 +52,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_EnumeracijaValue = cpb.create();
         }
         return props_EnumeracijaValue;
+      case LanguageConceptSwitch.ImplementsInterface:
+        if (props_ImplementsInterface == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0x1930d0ecd9194e4cL, 0xb5d876474568c949L, 0x3833fda09c149571L, 0x3833fda09c149573L, "target", "", "");
+          props_ImplementsInterface = cpb.create();
+        }
+        return props_ImplementsInterface;
       case LanguageConceptSwitch.Interface:
         if (props_Interface == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
