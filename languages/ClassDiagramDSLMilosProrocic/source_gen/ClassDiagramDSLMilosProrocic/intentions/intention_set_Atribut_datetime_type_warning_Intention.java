@@ -21,16 +21,16 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 
-public final class intention_set_Atribut_type_warning_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
+public final class intention_set_Atribut_datetime_type_warning_Intention extends AbstractIntentionDescriptor implements IntentionFactory {
   private Collection<IntentionExecutable> myCachedExecutable;
 
-  public intention_set_Atribut_type_warning_Intention() {
+  public intention_set_Atribut_datetime_type_warning_Intention() {
     super(Kind.NORMAL, false, new SNodePointer("r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)", "1517646760599062239"));
   }
 
   @Override
   public String getPresentation() {
-    return "intention_set_Atribut_type_warning";
+    return "intention_set_Atribut_datetime_type_warning";
   }
 
   @Override
@@ -55,7 +55,7 @@ public final class intention_set_Atribut_type_warning_Intention extends Abstract
 
     @Override
     public void execute(final SNode node, final EditorContext editorContext) {
-      SPropertyOperations.getString(node, PROPS.tipAtributa$Len0);
+      SPropertyOperations.assign(node, PROPS.tipAtributa$Len0, "datetime");
     }
 
     @Override
@@ -94,7 +94,7 @@ public final class intention_set_Atribut_type_warning_Intention extends Abstract
 
     @Override
     public IntentionDescriptor getDescriptor() {
-      return intention_set_Atribut_type_warning_Intention.this;
+      return intention_set_Atribut_datetime_type_warning_Intention.this;
     }
 
   }

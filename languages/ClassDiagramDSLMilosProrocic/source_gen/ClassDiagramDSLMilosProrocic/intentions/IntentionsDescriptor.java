@@ -43,7 +43,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
           intentions[5] = new intention_set_Atribut_type_undefined_Intention();
           intentions[6] = new intention_set_Atribut_type_date_Intention();
           intentions[7] = new intention_set_Atribut_type_datetime_error_Intention();
-          intentions[8] = new intention_set_Atribut_type_warning_Intention();
+          intentions[8] = new intention_set_Atribut_datetime_type_warning_Intention();
         }
         break;
       case 1:
@@ -110,7 +110,7 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     rv[11] = new intention_set_Atribut_type_undefined_Intention();
     rv[12] = new intention_set_Atribut_type_date_Intention();
     rv[13] = new intention_set_Atribut_type_datetime_error_Intention();
-    rv[14] = new intention_set_Atribut_type_warning_Intention();
+    rv[14] = new intention_set_Atribut_datetime_type_warning_Intention();
     rv[15] = new intention_set_Kardinalnost_Veze_0_1_Intention();
     rv[16] = new intention_set_Kardinalnost_Veze_1_Intention();
     rv[17] = new intention_add_inheritance_Intention();

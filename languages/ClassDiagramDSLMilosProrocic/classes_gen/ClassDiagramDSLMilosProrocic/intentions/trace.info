@@ -567,18 +567,18 @@
   </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/1517646760599062239">
     <file name="IntentionsDescriptor.java">
-      <node id="1517646760599062239" at="45,84,46,77" concept="1" />
-      <node id="1517646760599062239" at="112,71,113,64" concept="1" />
+      <node id="1517646760599062239" at="45,84,46,86" concept="1" />
+      <node id="1517646760599062239" at="112,71,113,73" concept="1" />
     </file>
-    <file name="intention_set_Atribut_type_warning_Intention.java">
+    <file name="intention_set_Atribut_datetime_type_warning_Intention.java">
       <node id="1517646760599062239" at="25,0,26,0" concept="2" trace="myCachedExecutable" />
-      <node id="1517646760599062239" at="27,57,28,154" concept="10" />
-      <node id="1517646760599062239" at="32,35,33,48" concept="7" />
+      <node id="1517646760599062239" at="27,66,28,154" concept="10" />
+      <node id="1517646760599062239" at="32,35,33,57" concept="7" />
       <node id="1517646760599062239" at="37,35,38,17" concept="7" />
       <node id="1517646760599062239" at="42,37,43,105" concept="1" />
       <node id="1517646760599062239" at="44,5,45,30" concept="7" />
       <node id="1517646760599062765" at="52,87,53,36" concept="7" />
-      <node id="1517646760599073062" at="57,78,58,66" concept="1" />
+      <node id="1517646760599073062" at="57,78,58,75" concept="1" />
       <node id="1517646760599062239" at="63,55,64,21" concept="7" />
       <node id="1517646760599062239" at="65,7,66,18" concept="7" />
       <node id="311480510047311282" at="69,93,70,94" concept="6" />
@@ -591,14 +591,14 @@
       <node id="311480510047311188" at="88,7,89,0" concept="8" />
       <node id="311480510047311190" at="89,0,90,0" concept="8" />
       <node id="1517646760599063625" at="90,0,91,88" concept="7" />
-      <node id="1517646760599062239" at="96,48,97,63" concept="7" />
+      <node id="1517646760599062239" at="96,48,97,72" concept="7" />
       <node id="1517646760599062239" at="103,0,104,0" concept="9" trace="tipAtributa$Len0" />
       <node id="1517646760599062239" at="104,0,105,0" concept="9" trace="name$MnvL" />
       <node id="1517646760599062239" at="108,0,109,0" concept="9" trace="enumeracije$oHuo" />
       <node id="1517646760599062239" at="109,0,110,0" concept="9" trace="klase$5dLc" />
       <node id="1517646760599062239" at="110,0,111,0" concept="9" trace="interfejsi$5e0d" />
       <node id="1517646760599062239" at="48,0,50,0" concept="0" trace="IntentionImplementation#()V" />
-      <node id="1517646760599062239" at="27,0,30,0" concept="0" trace="intention_set_Atribut_type_warning_Intention#()V" />
+      <node id="1517646760599062239" at="27,0,30,0" concept="0" trace="intention_set_Atribut_datetime_type_warning_Intention#()V" />
       <node id="1517646760599062239" at="41,99,44,5" concept="4" />
       <node id="1517646760599062239" at="62,86,65,7" concept="4" />
       <node id="311480510047311299" at="72,112,75,9" concept="4" />
@@ -616,17 +616,17 @@
       <node id="1517646760599062239" at="61,0,68,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <node id="1517646760599062239" at="69,0,93,0" concept="5" trace="isApplicableToNode#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
       <scope id="1517646760599062239" at="48,38,48,38" />
-      <scope id="1517646760599062239" at="27,57,28,154" />
-      <scope id="1517646760599062239" at="32,35,33,48" />
+      <scope id="1517646760599062239" at="27,66,28,154" />
+      <scope id="1517646760599062239" at="32,35,33,57" />
       <scope id="1517646760599062239" at="37,35,38,17" />
       <scope id="1517646760599062239" at="42,37,43,105" />
       <scope id="1517646760599062241" at="52,87,53,36" />
-      <scope id="1517646760599062243" at="57,78,58,66" />
+      <scope id="1517646760599062243" at="57,78,58,75" />
       <scope id="1517646760599062239" at="63,55,64,21" />
       <scope id="311480510047311307" at="73,127,74,23" />
       <scope id="311480510047311325" at="79,127,80,23" />
       <scope id="311480510047311343" at="85,127,86,23" />
-      <scope id="1517646760599062239" at="96,48,97,63" />
+      <scope id="1517646760599062239" at="96,48,97,72" />
       <scope id="1517646760599062239" at="48,0,50,0" />
       <scope id="1517646760599062239" at="27,0,30,0" />
       <scope id="311480510047311298" at="72,112,75,9" />
@@ -669,10 +669,10 @@
         <var name="editorContext" id="1517646760599062239" />
         <var name="node" id="1517646760599062239" />
       </scope>
-      <unit id="1517646760599062239" at="102,0,106,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_type_warning_Intention$PROPS" />
-      <unit id="1517646760599062239" at="107,0,112,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_type_warning_Intention$LINKS" />
-      <unit id="1517646760599062239" at="47,0,101,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_type_warning_Intention$IntentionImplementation" />
-      <unit id="1517646760599062239" at="24,0,113,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_type_warning_Intention" />
+      <unit id="1517646760599062239" at="102,0,106,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_datetime_type_warning_Intention$PROPS" />
+      <unit id="1517646760599062239" at="107,0,112,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_datetime_type_warning_Intention$LINKS" />
+      <unit id="1517646760599062239" at="47,0,101,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_datetime_type_warning_Intention$IntentionImplementation" />
+      <unit id="1517646760599062239" at="24,0,113,0" name="ClassDiagramDSLMilosProrocic.intentions.intention_set_Atribut_datetime_type_warning_Intention" />
     </file>
   </root>
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/2465447832825485677">
@@ -1086,7 +1086,7 @@
   <root nodeRef="r:90274395-b22a-4026-877b-f66a97996602(ClassDiagramDSLMilosProrocic.intentions)/311480510044796917">
     <file name="IntentionsDescriptor.java">
       <node id="311480510044796917" at="84,47,85,78" concept="1" />
-      <node id="311480510044796917" at="113,64,114,65" concept="1" />
+      <node id="311480510044796917" at="113,73,114,65" concept="1" />
     </file>
     <file name="intention_set_Kardinalnost_Veze_0_1_Intention.java">
       <node id="311480510044796917" at="24,0,25,0" concept="2" trace="myCachedExecutable" />

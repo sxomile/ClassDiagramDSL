@@ -49,81 +49,168 @@
   </registry>
   <node concept="4QnoT" id="51uBUXk$JXx">
     <property role="TrG5h" value="dijagram1" />
-    <node concept="1Fd$h5" id="51uBUXkAITQ" role="4QnoP">
-      <property role="4MLT3" value="klasa4" />
-      <property role="4Qn0W" value="51uBUXkxYgZ/agregacija" />
-      <property role="4MLT2" value="Dat" />
-      <node concept="4Qn0x" id="51uBUXkAITR" role="4P_$z">
-        <property role="4QmAF" value="5" />
-        <property role="4QmAE" value="9" />
+    <node concept="1FdpCw" id="13b2npVwbze" role="4NzjX">
+      <property role="TrG5h" value="OrderStatus" />
+      <node concept="4PSgi" id="13b2npVwbzf" role="4PShC">
+        <property role="TrG5h" value="PENDING_PAYMENT" />
       </node>
-      <node concept="4Qn0x" id="51uBUXkAITS" role="4P_$y">
+      <node concept="4PSgi" id="13b2npVwbzg" role="4PShC">
+        <property role="TrG5h" value="PROCESSING" />
+      </node>
+      <node concept="4PSgi" id="13b2npVwbzh" role="4PShC">
+        <property role="TrG5h" value="SHIPPED" />
+      </node>
+      <node concept="4PSgi" id="13b2npVwbzi" role="4PShC">
+        <property role="TrG5h" value="OUT_OF_DELIVERY" />
+      </node>
+      <node concept="4PSgi" id="13b2npVwbzj" role="4PShC">
+        <property role="TrG5h" value="DELIVERED" />
+      </node>
+    </node>
+    <node concept="1Fd$h5" id="13b2npVtWzl" role="4QnoP">
+      <property role="4MLT3" value="Customer" />
+      <property role="4Qn0W" value="51uBUXkxYh2/asocijacija" />
+      <property role="4MLT2" value="Order" />
+      <node concept="4Qn0x" id="13b2npVtWzm" role="4P_$z">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="1" />
+      </node>
+      <node concept="4Qn0x" id="13b2npVtWzn" role="4P_$y">
         <property role="4QmAF" value="0" />
         <property role="4QmAE" value="*" />
       </node>
     </node>
-    <node concept="1Fd$h5" id="hiAtYzEBkW" role="4QnoP">
-      <property role="4MLT3" value="klasa1" />
-      <property role="4Qn0W" value="51uBUXkxYh7/kompozicija" />
-      <property role="4MLT2" value="klasa1" />
-      <node concept="4Qn0x" id="hiAtYzEBkX" role="4P_$z">
+    <node concept="1Fd$h5" id="13b2npVtWzo" role="4QnoP">
+      <property role="4MLT3" value="Order" />
+      <property role="4Qn0W" value="51uBUXkxYh2/asocijacija" />
+      <property role="4MLT2" value="Payment" />
+      <node concept="4Qn0x" id="13b2npVtWzp" role="4P_$z">
         <property role="4QmAF" value="1" />
         <property role="4QmAE" value="1" />
       </node>
-      <node concept="4Qn0x" id="hiAtYzEBkY" role="4P_$y">
+      <node concept="4Qn0x" id="13b2npVtWzq" role="4P_$y">
         <property role="4QmAF" value="1" />
-        <property role="4QmAE" value="6" />
+        <property role="4QmAE" value="*" />
       </node>
     </node>
-    <node concept="1FdpCw" id="51uBUXk$JXC" role="4NzjX">
-      <property role="TrG5h" value="Operacije" />
-      <node concept="4PSgi" id="51uBUXk$JXD" role="4PShC">
-        <property role="TrG5h" value="PLUS" />
+    <node concept="1Fd$h5" id="13b2npVtWzr" role="4QnoP">
+      <property role="4MLT3" value="Order" />
+      <property role="4Qn0W" value="51uBUXkxYgZ/agregacija" />
+      <property role="4MLT2" value="OrderDetail" />
+      <node concept="4Qn0x" id="13b2npVtWzs" role="4P_$z">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="1" />
       </node>
-      <node concept="4PSgi" id="51uBUXk$JXE" role="4PShC">
-        <property role="TrG5h" value="MINUS" />
+      <node concept="4Qn0x" id="13b2npVtWzt" role="4P_$y">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="*" />
       </node>
-      <node concept="4PSgi" id="51uBUXk$JXF" role="4PShC">
-        <property role="TrG5h" value="PUTA" />
+    </node>
+    <node concept="1Fd$h5" id="13b2npVtWzu" role="4QnoP">
+      <property role="4MLT3" value="OrderDetail" />
+      <property role="4Qn0W" value="51uBUXkxYh2/asocijacija" />
+      <property role="4MLT2" value="Item" />
+      <node concept="4Qn0x" id="13b2npVtWzv" role="4P_$z">
+        <property role="4QmAF" value="0" />
+        <property role="4QmAE" value="*" />
+      </node>
+      <node concept="4Qn0x" id="13b2npVtWzw" role="4P_$y">
+        <property role="4QmAF" value="1" />
+        <property role="4QmAE" value="1" />
       </node>
     </node>
     <node concept="1FdjBA" id="3wNZq2s0xR7" role="4QnoQ">
-      <property role="TrG5h" value="IEnumerable" />
+      <property role="TrG5h" value="IPaymentProcessing" />
     </node>
-    <node concept="1FdjBA" id="3IEtu39mMUa" role="4QnoQ">
-      <property role="TrG5h" value="IAction" />
-    </node>
-    <node concept="1Fd$h7" id="3IEtu39n1Vc" role="4QnoR">
-      <property role="TrG5h" value="Dat" />
-      <ref role="4Plsa" node="hiAtYzODZF" resolve="klasa4" />
-      <node concept="1Fdp5F" id="3IEtu39n1Vd" role="4QnIk">
-        <property role="TrG5h" value="id" />
-        <property role="3MWlHh" value="integer" />
-      </node>
-      <node concept="1Fdp5F" id="3IEtu39n1Ve" role="4QnIk">
+    <node concept="1Fd$h7" id="13b2npVtKVP" role="4QnoR">
+      <property role="TrG5h" value="Customer" />
+      <node concept="1Fdp5F" id="13b2npVtKVR" role="4QnIk">
         <property role="TrG5h" value="name" />
         <property role="3MWlHh" value="string" />
       </node>
-      <node concept="1Fdp5F" id="3IEtu39smFT" role="4QnIk">
-        <property role="TrG5h" value="a1" />
+      <node concept="1Fdp5F" id="13b2npVtKVS" role="4QnIk">
+        <property role="TrG5h" value="address" />
         <property role="3MWlHh" value="string" />
       </node>
-      <node concept="2$9Qzh" id="3wNZq2sb_So" role="4Pls7">
-        <ref role="2$9Qzj" node="3wNZq2s0xR7" resolve="IEnumerable" />
+    </node>
+    <node concept="1Fd$h7" id="13b2npVtKVT" role="4QnoR">
+      <property role="TrG5h" value="Order" />
+      <node concept="1Fdp5F" id="13b2npVtKVU" role="4QnIk">
+        <property role="TrG5h" value="date" />
+        <property role="3MWlHh" value="date" />
       </node>
-      <node concept="2$9Qzh" id="3wNZq2sb_Sp" role="4Pls7">
-        <ref role="2$9Qzj" node="3IEtu39mMUa" resolve="IAction" />
+      <node concept="1Fdp5F" id="13b2npVtKVV" role="4QnIk">
+        <property role="TrG5h" value="status" />
+        <property role="3MWlHh" value="OrderStatus" />
       </node>
     </node>
-    <node concept="1Fd$h7" id="hiAtYzODZF" role="4QnoR">
-      <property role="TrG5h" value="klasa4" />
-      <node concept="1Fdp5F" id="hiAtYzODZG" role="4QnIk">
-        <property role="TrG5h" value="Atribut_1" />
-        <property role="3MWlHh" value="boolean" />
+    <node concept="1Fd$h7" id="13b2npVtKVW" role="4QnoR">
+      <property role="TrG5h" value="OrderDetail" />
+      <node concept="1Fdp5F" id="13b2npVtKVX" role="4QnIk">
+        <property role="TrG5h" value="quantity" />
+        <property role="3MWlHh" value="real" />
+      </node>
+      <node concept="1Fdp5F" id="13b2npVtVpi" role="4QnIk">
+        <property role="TrG5h" value="taxStatus" />
+        <property role="3MWlHh" value="string" />
       </node>
     </node>
-    <node concept="1FdjBA" id="51uBUXk$JXz" role="4QnoQ">
-      <property role="TrG5h" value="IOperaci" />
+    <node concept="1Fd$h7" id="13b2npVtVpj" role="4QnoR">
+      <property role="TrG5h" value="Item" />
+      <node concept="1Fdp5F" id="13b2npVtVpk" role="4QnIk">
+        <property role="TrG5h" value="shippingWeight" />
+        <property role="3MWlHh" value="real" />
+      </node>
+      <node concept="1Fdp5F" id="13b2npVtVpl" role="4QnIk">
+        <property role="TrG5h" value="description" />
+        <property role="3MWlHh" value="string" />
+      </node>
+    </node>
+    <node concept="1Fd$h7" id="13b2npVtVpn" role="4QnoR">
+      <property role="TrG5h" value="Payment" />
+      <node concept="1Fdp5F" id="13b2npVtVpo" role="4QnIk">
+        <property role="TrG5h" value="amount" />
+        <property role="3MWlHh" value="real" />
+      </node>
+      <node concept="2$9Qzh" id="13b2npVwbzk" role="4Pls7">
+        <ref role="2$9Qzj" node="3wNZq2s0xR7" resolve="IPaymentProcessing" />
+      </node>
+    </node>
+    <node concept="1Fd$h7" id="13b2npVtVpp" role="4QnoR">
+      <property role="TrG5h" value="Cash" />
+      <ref role="4Plsa" node="13b2npVtVpn" resolve="Payment" />
+      <node concept="1Fdp5F" id="13b2npVtVpq" role="4QnIk">
+        <property role="TrG5h" value="cashTendered" />
+        <property role="3MWlHh" value="real" />
+      </node>
+    </node>
+    <node concept="1Fd$h7" id="13b2npVtVpr" role="4QnoR">
+      <property role="TrG5h" value="Check" />
+      <ref role="4Plsa" node="13b2npVtVpn" resolve="Payment" />
+      <node concept="1Fdp5F" id="13b2npVtVps" role="4QnIk">
+        <property role="TrG5h" value="name" />
+        <property role="3MWlHh" value="string" />
+      </node>
+      <node concept="1Fdp5F" id="13b2npVtVpt" role="4QnIk">
+        <property role="TrG5h" value="bankID" />
+        <property role="3MWlHh" value="string" />
+      </node>
+    </node>
+    <node concept="1Fd$h7" id="13b2npVtVpu" role="4QnoR">
+      <property role="TrG5h" value="Credit" />
+      <ref role="4Plsa" node="13b2npVtVpn" resolve="Payment" />
+      <node concept="1Fdp5F" id="13b2npVtWzi" role="4QnIk">
+        <property role="TrG5h" value="number" />
+        <property role="3MWlHh" value="string" />
+      </node>
+      <node concept="1Fdp5F" id="13b2npVtWzj" role="4QnIk">
+        <property role="TrG5h" value="type" />
+        <property role="3MWlHh" value="string" />
+      </node>
+      <node concept="1Fdp5F" id="13b2npVtWzk" role="4QnIk">
+        <property role="TrG5h" value="expDate" />
+        <property role="3MWlHh" value="datetime" />
+      </node>
     </node>
   </node>
 </model>

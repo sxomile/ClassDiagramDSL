@@ -153,14 +153,8 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -2122,7 +2116,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="1kfKV0s1Srv">
-    <property role="TrG5h" value="intention_set_Atribut_type_warning" />
+    <property role="TrG5h" value="intention_set_Atribut_datetime_type_warning" />
     <ref role="2ZfgGC" to="ldom:TgpFD_pvvh" resolve="Atribut" />
     <node concept="2S6ZIM" id="1kfKV0s1Srw" role="2ZfVej">
       <node concept="3clFbS" id="1kfKV0s1Srx" role="2VODD2">
@@ -2136,12 +2130,14 @@
     <node concept="2Sbjvc" id="1kfKV0s1Sry" role="2ZfgGD">
       <node concept="3clFbS" id="1kfKV0s1Srz" role="2VODD2">
         <node concept="3clFbF" id="1kfKV0s1V4A" role="3cqZAp">
-          <node concept="2OqwBi" id="1kfKV0s1Vhi" role="3clFbG">
-            <node concept="2Sf5sV" id="1kfKV0s1V4_" role="2Oq$k0" />
-            <node concept="3TrcHB" id="1kfKV0s1VD1" role="2OqNvi">
-              <ref role="3TsBF5" to="ldom:3IEtu39mMUL" resolve="tipAtributa" />
-              <node concept="1KehLL" id="1kfKV0s1Wl4" role="lGtFl">
-                <property role="1K8rM7" value="property_name" />
+          <node concept="37vLTI" id="13b2npVusuK" role="3clFbG">
+            <node concept="Xl_RD" id="13b2npVusHc" role="37vLTx">
+              <property role="Xl_RC" value="datetime" />
+            </node>
+            <node concept="2OqwBi" id="1kfKV0s1Vhi" role="37vLTJ">
+              <node concept="2Sf5sV" id="1kfKV0s1V4_" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1kfKV0s1VD1" role="2OqNvi">
+                <ref role="3TsBF5" to="ldom:3IEtu39mMUL" resolve="tipAtributa" />
               </node>
             </node>
           </node>
